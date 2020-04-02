@@ -1,0 +1,45 @@
+#!/usr/bin/env groovy
+import hudson.model.*
+import hudson.EnvVars
+import groovy.json.JsonSlurperClassic
+import groovy.json.JsonBuilder
+import groovy.json.JsonOutput
+import java.net.URL
+
+node{
+    stage('Checkout'){
+        git 'https://github.com/rrahul4/DevOpsClassCodes'
+    }
+    stage('Compile'){
+        withMaven(maven:'MyMaven'){
+            sh 'mvn compile'
+        }
+        
+    }
+    stage('Review'){
+        withMaven(maven:'MyMaven'){
+            sh 'mvn pmd:pmd'
+            pmd canComputeNew: false, defaultEncoding: '', healthy: '', pattern: 'target/pmd.xml', unHealthy: ''
+        }
+        
+    }
+    stage('Test'){
+        withMaven(maven:'MyMaven'){
+            sh 'mvn test'
+            junit 'target/surefire-reports/*.xml'
+        }
+        
+    }
+    stage('Metrics'){
+        withMaven(maven:'MyMaven'){
+            sh 'mvn cobertura:cobertura -Dcobertura.report.format=xml'
+            cobertura autoUpdateHealth: false, autoUpdateStability: false, coberturaReportFile: 'target/site/cobertura/coverage.xml', conditionalCoverageTargets: '70, 0, 0', failUnhealthy: false, failUnstable: false, lineCoverageTargets: '80, 0, 0', maxNumberOfBuilds: 0, methodCoverageTargets: '80, 0, 0', onlyStable: false, sourceEncoding: 'ASCII', zoomCoverageChart: false
+        }
+        
+    }
+    stage('Package'){
+        withMaven(maven:'MyMaven'){
+            sh 'mvn package'
+        }
+    }
+}
