@@ -31,8 +31,8 @@
       <command>git checkout terraform-0.12
 cd demo-10
 ls -all
-export AWS_ACCESS_KEY_ID=AKIAIV7E6RWRY3VWFCNQ
-export AWS_SECRET_ACCESS_KEY=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
+export AWS_ACCESS_KEY_ID=
+export AWS_SECRET_ACCESS_KEY=
 ssh-keygen -f mykey
 terraform --version
 terraform init
