@@ -1,0 +1,7 @@
+---
+- hosts: allservers
+  become: true
+  become_user: root
+  tasks:
+  - name: Copy File
+    copy: src=/root/tempfile dest=/root/tempfileansible
