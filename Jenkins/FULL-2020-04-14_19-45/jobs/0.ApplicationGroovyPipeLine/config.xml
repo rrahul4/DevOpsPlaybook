@@ -1,0 +1,149 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@2.38">
+  <actions>
+    <org.jenkinsci.plugins.workflow.multibranch.JobPropertyTrackerAction plugin="workflow-multibranch@2.21">
+      <jobPropertyDescriptors>
+        <string>hudson.model.ParametersDefinitionProperty</string>
+        <string>jenkins.model.BuildDiscarderProperty</string>
+      </jobPropertyDescriptors>
+    </org.jenkinsci.plugins.workflow.multibranch.JobPropertyTrackerAction>
+  </actions>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <jenkins.model.BuildDiscarderProperty>
+      <strategy class="hudson.tasks.LogRotator">
+        <daysToKeep>7</daysToKeep>
+        <numToKeep>10</numToKeep>
+        <artifactDaysToKeep>7</artifactDaysToKeep>
+        <artifactNumToKeep>10</artifactNumToKeep>
+      </strategy>
+    </jenkins.model.BuildDiscarderProperty>
+    <hudson.model.ParametersDefinitionProperty>
+      <parameterDefinitions>
+        <hudson.model.BooleanParameterDefinition>
+          <name>Compile</name>
+          <description>Application Compile </description>
+          <defaultValue>true</defaultValue>
+        </hudson.model.BooleanParameterDefinition>
+        <hudson.model.BooleanParameterDefinition>
+          <name>Review</name>
+          <description>Application Review  </description>
+          <defaultValue>true</defaultValue>
+        </hudson.model.BooleanParameterDefinition>
+        <hudson.model.BooleanParameterDefinition>
+          <name>Test</name>
+          <description>Application Test    </description>
+          <defaultValue>true</defaultValue>
+        </hudson.model.BooleanParameterDefinition>
+        <hudson.model.BooleanParameterDefinition>
+          <name>Metrics</name>
+          <description>Application Metrics </description>
+          <defaultValue>true</defaultValue>
+        </hudson.model.BooleanParameterDefinition>
+        <hudson.model.BooleanParameterDefinition>
+          <name>Package</name>
+          <description>Application Package </description>
+          <defaultValue>true</defaultValue>
+        </hudson.model.BooleanParameterDefinition>
+        <hudson.model.BooleanParameterDefinition>
+          <name>DockerImageBuild</name>
+          <description>Docker Image Build  </description>
+          <defaultValue>false</defaultValue>
+        </hudson.model.BooleanParameterDefinition>
+        <hudson.model.BooleanParameterDefinition>
+          <name>DockerImagePush</name>
+          <description>Docker Image Push   </description>
+          <defaultValue>false</defaultValue>
+        </hudson.model.BooleanParameterDefinition>
+      </parameterDefinitions>
+    </hudson.model.ParametersDefinitionProperty>
+  </properties>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@2.80">
+    <script>#!/usr/bin/env groovy
+import hudson.model.*
+import hudson.EnvVars
+import groovy.json.JsonSlurperClassic
+import groovy.json.JsonBuilder
+import groovy.json.JsonOutput
+import java.net.URL
+
+node{
+
+properties([
+    buildDiscarder(logRotator(artifactDaysToKeepStr: &apos;7&apos;, artifactNumToKeepStr: &apos;10&apos;, daysToKeepStr: &apos;7&apos;, numToKeepStr: &apos;10&apos;)),
+    parameters([
+        booleanParam(defaultValue: true, description: &apos;Application Compile &apos;, name: &apos;Compile&apos;),
+        booleanParam(defaultValue: true, description: &apos;Application Review  &apos;, name: &apos;Review&apos;),
+        booleanParam(defaultValue: true, description: &apos;Application Test    &apos;, name: &apos;Test&apos;),
+        booleanParam(defaultValue: true, description: &apos;Application Metrics &apos;, name: &apos;Metrics&apos;),
+        booleanParam(defaultValue: true, description: &apos;Application Package &apos;, name: &apos;Package&apos;),
+        booleanParam(defaultValue: false, description: &apos;Docker Image Build  &apos;, name: &apos;DockerImageBuild&apos;),
+        booleanParam(defaultValue: false, description: &apos;Docker Image Push   &apos;, name: &apos;DockerImagePush&apos;)
+        ])
+    ])
+
+    stage(&apos;Checkout&apos;){
+        cleanWs()
+        git &apos;https://github.com/rrahul4/DevOpsClassCodes&apos;
+    }        
+    
+    if (params.Compile) {
+        stage(&apos;Compile&apos;){
+            withMaven(maven:&apos;MyMaven&apos;){
+            sh &apos;mvn compile&apos;
+            }
+        }        
+    }
+
+    if (params.Review) {
+        stage(&apos;Review&apos;){
+            withMaven(maven:&apos;MyMaven&apos;){
+            sh &apos;mvn pmd:pmd&apos;
+            pmd canComputeNew: false, defaultEncoding: &apos;&apos;, healthy: &apos;&apos;, pattern: &apos;target/pmd.xml&apos;, unHealthy: &apos;&apos;
+            }
+        }        
+    }
+
+    if (params.Test) {
+        stage(&apos;Test&apos;)  {
+            withMaven(maven:&apos;MyMaven&apos;){
+            sh &apos;mvn test&apos;
+            junit &apos;target/surefire-reports/*.xml&apos;
+            }
+        }        
+    }
+
+    if (params.Metrics) {
+        stage(&apos;Metrics&apos;){
+            withMaven(maven:&apos;MyMaven&apos;){
+            sh &apos;mvn cobertura:cobertura -Dcobertura.report.format=xml&apos;
+            cobertura autoUpdateHealth: false, autoUpdateStability: false, coberturaReportFile: &apos;target/site/cobertura/coverage.xml&apos;, conditionalCoverageTargets: &apos;70, 0, 0&apos;, failUnhealthy: false, failUnstable: false, lineCoverageTargets: &apos;80, 0, 0&apos;, maxNumberOfBuilds: 0, methodCoverageTargets: &apos;80, 0, 0&apos;, onlyStable: false, sourceEncoding: &apos;ASCII&apos;, zoomCoverageChart: false
+            }
+        }        
+    }
+
+    if (params.Package) {
+        stage(&apos;Package&apos;){
+           withMaven(maven:&apos;MyMaven&apos;){
+            sh &apos;mvn package&apos;
+            }
+        }        
+    }
+    
+    if (params.DockerImageBuild) {
+        stage(&apos;Docker Image Build&apos;) {
+            sh &apos;sudo docker build . -t rrahul4/addressbook:$BUILD_NUMBER&apos;
+        }
+    }
+    if (params.DockerImagePush) {
+        stage(&apos;Docker Image Push&apos;) {
+            sh &apos;sudo docker push rrahul4/addressbook:$BUILD_NUMBER&apos;
+        }
+    }
+}</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>

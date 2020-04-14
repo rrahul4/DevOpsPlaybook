@@ -1,0 +1,55 @@
+Started by upstream project "[8mha:////4GY9M2ho1CwYWLcfR3fhrMFEnt+cOZspkOCxVyNkAjT4AAAAph+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyREgYp/az8JH1TPceCgpzM5MSSzPy8gMTk7MT0VH0Ap2razs8AAAA=[0m5.ApplicationPackage" build number [8mha:////4BmERbLarkuvLvUsdkz7ynT0I/KQ1O3/TvFjfK9D8gplAAAAph+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBmn9rPwkfVM9x4KCnMzkxJLM/LyAxOTsxPRUfSMAtGkaiNAAAAA=[0m2
+originally caused by:
+ Started by user [8mha:////4IMMv8T2XIKwgqbrGOhOzF4+E7SeVBm4zoNrNbmggpHXAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building remotely on [8mha:////4HXMCPcJLH6SioyTmRlYzAMMW8CRO9x1964AUHkM5vgIAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAwOoBn6yfm5BaUlqUX6vpVuqSn5RYkAo3X03McAAAA=[0mMyFedora (MyFedoraSlave) in workspace /var/lib/jenkins/workspace/6.DockerImageBuild
+[6.DockerImageBuild] $ /bin/sh -xe /var/tmp/jenkins7827798804676887053.sh
++ cp /var/lib/jenkins/workspace/5.ApplicationPackage/target/addressbook.war .
++ cat
++ sudo docker build . -t rrahul4/addressbook:6
+Sending build context to Docker daemon  16.54MB
+Step 1/4 : FROM tomcat
+ ---> e36064f7c6f0
+Step 2/4 : Maintainer Rahulkumar Rakhonde
+ ---> Using cache
+ ---> 650808ed0fda
+Step 3/4 : ADD addressbook.war  /usr/local/tomcat/webapps/
+ ---> 67f76bc80e12
+Step 4/4 : CMD "catalina.sh" "run"
+ ---> Running in 2d13e0ce1ba8
+Removing intermediate container 2d13e0ce1ba8
+ ---> 4b70c5e44a80
+Successfully built 4b70c5e44a80
+Successfully tagged rrahul4/addressbook:6
++ sudo docker push rrahul4/addressbook:6
+The push refers to repository [docker.io/rrahul4/addressbook]
+029f22605600: Preparing
+7361d0bafa8b: Preparing
+07845babec19: Preparing
+81349fc07565: Preparing
+892007193bb6: Preparing
+e811ee12aa10: Preparing
+23f8d486123a: Preparing
+afae6f50abb9: Preparing
+136a15f81f25: Preparing
+185574602537: Preparing
+24efcd549ab5: Preparing
+e811ee12aa10: Waiting
+23f8d486123a: Waiting
+afae6f50abb9: Waiting
+136a15f81f25: Waiting
+185574602537: Waiting
+24efcd549ab5: Waiting
+81349fc07565: Layer already exists
+892007193bb6: Layer already exists
+07845babec19: Layer already exists
+7361d0bafa8b: Layer already exists
+136a15f81f25: Layer already exists
+e811ee12aa10: Layer already exists
+afae6f50abb9: Layer already exists
+23f8d486123a: Layer already exists
+24efcd549ab5: Layer already exists
+185574602537: Layer already exists
+029f22605600: Pushed
+6: digest: sha256:93501c7e5ee083d5358e52f1945caf94b07514a09c104628c62077320810dc90 size: 2633
+Finished: SUCCESS

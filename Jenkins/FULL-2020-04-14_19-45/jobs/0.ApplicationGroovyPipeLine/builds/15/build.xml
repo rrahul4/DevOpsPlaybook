@@ -1,0 +1,322 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@2.38">
+  <actions>
+    <hudson.model.ParametersAction>
+      <safeParameters class="sorted-set"/>
+      <parameters>
+        <hudson.model.BooleanParameterValue>
+          <name>Compile</name>
+          <description>Application Compile </description>
+          <value>true</value>
+        </hudson.model.BooleanParameterValue>
+        <hudson.model.BooleanParameterValue>
+          <name>Review</name>
+          <description>Application Review  </description>
+          <value>false</value>
+        </hudson.model.BooleanParameterValue>
+        <hudson.model.BooleanParameterValue>
+          <name>Test</name>
+          <description>Application Test    </description>
+          <value>false</value>
+        </hudson.model.BooleanParameterValue>
+        <hudson.model.BooleanParameterValue>
+          <name>Metrics</name>
+          <description>Application Metrics </description>
+          <value>false</value>
+        </hudson.model.BooleanParameterValue>
+        <hudson.model.BooleanParameterValue>
+          <name>Package</name>
+          <description>Application Package </description>
+          <value>false</value>
+        </hudson.model.BooleanParameterValue>
+        <hudson.model.BooleanParameterValue>
+          <name>DockerImage</name>
+          <description>Docker Image Build  </description>
+          <value>false</value>
+        </hudson.model.BooleanParameterValue>
+      </parameters>
+      <parameterDefinitionNames>
+        <string>Compile</string>
+        <string>Review</string>
+        <string>Test</string>
+        <string>Metrics</string>
+        <string>Package</string>
+        <string>DockerImage</string>
+      </parameterDefinitionNames>
+    </hudson.model.ParametersAction>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>admin</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="workflow-cps-global-lib@2.16">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+    <hudson.plugins.git.util.BuildData plugin="git@4.2.2">
+      <buildsByBranchName>
+        <entry>
+          <string>refs/remotes/origin/master</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@3.2.1">
+              <sha1>a29c7ecd9516bcd0a0768fa6befad1bb5dc2dc76</sha1>
+              <branches class="list">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>refs/remotes/origin/master</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision reference="../marked"/>
+            <hudsonBuildNumber>15</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+      </buildsByBranchName>
+      <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
+      <remoteUrls>
+        <string>https://github.com/rrahul4/DevOpsClassCodes</string>
+      </remoteUrls>
+    </hudson.plugins.git.util.BuildData>
+    <hudson.plugins.git.GitTagAction plugin="git@4.2.2">
+      <tags class="hudson.util.CopyOnWriteMap$Tree">
+        <entry>
+          <string>refs/remotes/origin/master</string>
+          <list/>
+        </entry>
+      </tags>
+      <ws>/var/lib/jenkins/workspace/0.ApplicationGroovyPipeLine</ws>
+    </hudson.plugins.git.GitTagAction>
+    <org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState plugin="workflow-scm-step@2.10">
+      <revisionStates>
+        <entry>
+          <string>git https://github.com/rrahul4/DevOpsClassCodes</string>
+          <hudson.scm.SCMRevisionState_-None/>
+        </entry>
+      </revisionStates>
+    </org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState>
+    <hudson.tasks.Fingerprinter_-FingerprintAction>
+      <record>
+        <entry>
+          <string>com/edurekademo/tutorial/addressbook/2.0/addressbook-2.0.pom</string>
+          <string>7bca4c4d34e515af51c0400a8e33dbc3</string>
+        </entry>
+      </record>
+    </hudson.tasks.Fingerprinter_-FingerprintAction>
+    <org.jenkinsci.plugins.pipeline.maven.publishers.MavenReport plugin="pipeline-maven@3.8.2"/>
+    <hudson.plugins.tasks.TasksResultAction plugin="tasks@4.53">
+      <owner class="flow-build" reference="../../.."/>
+      <healthDescriptor class="hudson.plugins.tasks.TasksHealthDescriptor">
+        <priority>LOW</priority>
+        <healthy></healthy>
+        <unHealthy></unHealthy>
+        <thresholds plugin="analysis-core@1.96">
+          <unstableTotalAll></unstableTotalAll>
+          <unstableTotalHigh></unstableTotalHigh>
+          <unstableTotalNormal></unstableTotalNormal>
+          <unstableTotalLow></unstableTotalLow>
+          <unstableNewAll></unstableNewAll>
+          <unstableNewHigh></unstableNewHigh>
+          <unstableNewNormal></unstableNewNormal>
+          <unstableNewLow></unstableNewLow>
+          <failedTotalAll></failedTotalAll>
+          <failedTotalHigh></failedTotalHigh>
+          <failedTotalNormal></failedTotalNormal>
+          <failedTotalLow></failedTotalLow>
+          <failedNewAll></failedNewAll>
+          <failedNewHigh></failedNewHigh>
+          <failedNewNormal></failedNewNormal>
+          <failedNewLow></failedNewLow>
+        </thresholds>
+      </healthDescriptor>
+      <result class="hudson.plugins.tasks.TasksResult">
+        <owner class="flow-build" reference="../../../.."/>
+        <modules>
+          <null/>
+        </modules>
+        <numberOfModules>1</numberOfModules>
+        <numberOfWarnings>0</numberOfWarnings>
+        <numberOfNewWarnings>0</numberOfNewWarnings>
+        <numberOfFixedWarnings>0</numberOfFixedWarnings>
+        <delta>0</delta>
+        <lowDelta>0</lowDelta>
+        <normalDelta>0</normalDelta>
+        <highDelta>0</highDelta>
+        <lowWarnings>0</lowWarnings>
+        <normalWarnings>0</normalWarnings>
+        <highWarnings>0</highWarnings>
+        <zeroWarningsSinceBuild>13</zeroWarningsSinceBuild>
+        <zeroWarningsSinceDate>1586772341254</zeroWarningsSinceDate>
+        <zeroWarningsHighScore>1558342</zeroWarningsHighScore>
+        <isZeroWarningsHighscore>true</isZeroWarningsHighscore>
+        <highScoreGap>0</highScoreGap>
+        <errors/>
+        <pluginResult>SUCCESS</pluginResult>
+        <successfulSinceBuild>0</successfulSinceBuild>
+        <successfulSinceDate>0</successfulSinceDate>
+        <successfulHighscore>0</successfulHighscore>
+        <isSuccessfulHighscore>false</isSuccessfulHighscore>
+        <successfulHighScoreGap>0</successfulHighScoreGap>
+        <isSuccessfulStateTouched>false</isSuccessfulStateTouched>
+        <referenceBuild>14</referenceBuild>
+        <highTags>FIXME</highTags>
+        <normalTags>TODO</normalTags>
+        <numberOfFiles>13</numberOfFiles>
+      </result>
+    </hudson.plugins.tasks.TasksResultAction>
+  </actions>
+  <queueId>36</queueId>
+  <timestamp>1586773899596</timestamp>
+  <startTime>1586773899647</startTime>
+  <result>SUCCESS</result>
+  <duration>65613</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>SUCCESS</result>
+    <script>#!/usr/bin/env groovy
+import hudson.model.*
+import hudson.EnvVars
+import groovy.json.JsonSlurperClassic
+import groovy.json.JsonBuilder
+import groovy.json.JsonOutput
+import java.net.URL
+
+node{
+
+properties([
+    buildDiscarder(logRotator(artifactDaysToKeepStr: &apos;7&apos;, artifactNumToKeepStr: &apos;10&apos;, daysToKeepStr: &apos;7&apos;, numToKeepStr: &apos;10&apos;)),
+    parameters([
+        booleanParam(defaultValue: true, description: &apos;Application Compile &apos;, name: &apos;Compile&apos;),
+        booleanParam(defaultValue: true, description: &apos;Application Review  &apos;, name: &apos;Review&apos;),
+        booleanParam(defaultValue: true, description: &apos;Application Test    &apos;, name: &apos;Test&apos;),
+        booleanParam(defaultValue: true, description: &apos;Application Metrics &apos;, name: &apos;Metrics&apos;),
+        booleanParam(defaultValue: true, description: &apos;Application Package &apos;, name: &apos;Package&apos;),
+        booleanParam(defaultValue: false, description: &apos;Docker Image Build  &apos;, name: &apos;DockerImageBuild&apos;),
+        booleanParam(defaultValue: false, description: &apos;Docker Image Push   &apos;, name: &apos;DockerImagePush&apos;)
+        ])
+    ])
+
+    stage(&apos;Checkout&apos;){
+        cleanWs()
+        git &apos;https://github.com/rrahul4/DevOpsClassCodes&apos;
+    }        
+    
+    if (params.Compile) {
+        stage(&apos;Compile&apos;){
+            withMaven(maven:&apos;MyMaven&apos;){
+            sh &apos;mvn compile&apos;
+            }
+        }        
+    }
+
+    if (params.Review) {
+        stage(&apos;Review&apos;){
+            withMaven(maven:&apos;MyMaven&apos;){
+            sh &apos;mvn pmd:pmd&apos;
+            pmd canComputeNew: false, defaultEncoding: &apos;&apos;, healthy: &apos;&apos;, pattern: &apos;target/pmd.xml&apos;, unHealthy: &apos;&apos;
+            }
+        }        
+    }
+
+    if (params.Test) {
+        stage(&apos;Test&apos;)  {
+            withMaven(maven:&apos;MyMaven&apos;){
+            sh &apos;mvn test&apos;
+            junit &apos;target/surefire-reports/*.xml&apos;
+            }
+        }        
+    }
+
+    if (params.Metrics) {
+        stage(&apos;Metrics&apos;){
+            withMaven(maven:&apos;MyMaven&apos;){
+            sh &apos;mvn cobertura:cobertura -Dcobertura.report.format=xml&apos;
+            cobertura autoUpdateHealth: false, autoUpdateStability: false, coberturaReportFile: &apos;target/site/cobertura/coverage.xml&apos;, conditionalCoverageTargets: &apos;70, 0, 0&apos;, failUnhealthy: false, failUnstable: false, lineCoverageTargets: &apos;80, 0, 0&apos;, maxNumberOfBuilds: 0, methodCoverageTargets: &apos;80, 0, 0&apos;, onlyStable: false, sourceEncoding: &apos;ASCII&apos;, zoomCoverageChart: false
+            }
+        }        
+    }
+
+    if (params.Package) {
+        stage(&apos;Package&apos;){
+           withMaven(maven:&apos;MyMaven&apos;){
+            sh &apos;mvn package&apos;
+            }
+        }        
+    }
+    
+    if (params.DockerImageBuild) {
+        stage(&apos;Docker Image Build&apos;) {
+            sh label: &apos;&apos;,script: &apos;&apos;&apos;
+            cp $WORKSPACE/target/*.war .
+            sudo docker build . -t rrahul4/addressbook:$BUILD_NUMBER&apos;&apos;&apos;
+        }
+    }
+    if (params.DockerImagePush) {
+        stage(&apos;Docker Image Push&apos;) {
+            sh &apos;sudo docker push rrahul4/addressbook:$BUILD_NUMBER&apos;
+        }
+    }
+}</script>
+    <loadedScripts class="map"/>
+    <durabilityHint>MAX_SURVIVABILITY</durabilityHint>
+    <timings class="map">
+      <entry>
+        <string>flowNode</string>
+        <long>4043242224</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>130164354</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>6982239345</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>612627856</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>123422185</long>
+      </entry>
+    </timings>
+    <sandbox>true</sandbox>
+    <iota>23</iota>
+    <head>1:23</head>
+    <done>true</done>
+    <resumeBlocked>false</resumeBlocked>
+  </execution>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList">
+    <org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+      <scm class="hudson.plugins.git.GitSCM" plugin="git@4.2.2">
+        <configVersion>2</configVersion>
+        <userRemoteConfigs>
+          <hudson.plugins.git.UserRemoteConfig>
+            <url>https://github.com/rrahul4/DevOpsClassCodes</url>
+          </hudson.plugins.git.UserRemoteConfig>
+        </userRemoteConfigs>
+        <branches class="singleton-list">
+          <hudson.plugins.git.BranchSpec>
+            <name>*/master</name>
+          </hudson.plugins.git.BranchSpec>
+        </branches>
+        <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+        <submoduleCfg class="empty-list"/>
+        <extensions>
+          <hudson.plugins.git.extensions.impl.LocalBranch>
+            <localBranch>master</localBranch>
+          </hudson.plugins.git.extensions.impl.LocalBranch>
+        </extensions>
+      </scm>
+      <node></node>
+      <workspace>/var/lib/jenkins/workspace/0.ApplicationGroovyPipeLine</workspace>
+      <pollingBaseline class="hudson.scm.SCMRevisionState$None" reference="../../../actions/org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState/revisionStates/entry/hudson.scm.SCMRevisionState_-None"/>
+    </org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+  </checkouts>
+</flow-build>

@@ -1,0 +1,53 @@
+Started by user [8mha:////4IMMv8T2XIKwgqbrGOhOzF4+E7SeVBm4zoNrNbmggpHXAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/6.DockerImageBuild
+[6.DockerImageBuild] $ /bin/sh -xe /tmp/jenkins586999740833335407.sh
++ cp /var/lib/jenkins/workspace/5.ApplicationPackage/target/addressbook.war .
++ cat
++ sudo docker build . -t rrahul4/addressbook:4
+Sending build context to Docker daemon  16.54MB
+Step 1/4 : FROM tomcat
+ ---> e36064f7c6f0
+Step 2/4 : Maintainer Rahulkumar Rakhonde
+ ---> Using cache
+ ---> 144381ceb1bd
+Step 3/4 : ADD addressbook.war  /usr/local/tomcat/webapps/
+ ---> Using cache
+ ---> 166d7e67ab29
+Step 4/4 : CMD "catalina.sh" "run"
+ ---> Using cache
+ ---> 33a8925f1bd8
+Successfully built 33a8925f1bd8
+Successfully tagged rrahul4/addressbook:4
++ sudo docker push rrahul4/addressbook:4
+The push refers to repository [docker.io/rrahul4/addressbook]
+86175044cc70: Preparing
+7361d0bafa8b: Preparing
+07845babec19: Preparing
+81349fc07565: Preparing
+892007193bb6: Preparing
+e811ee12aa10: Preparing
+23f8d486123a: Preparing
+afae6f50abb9: Preparing
+136a15f81f25: Preparing
+185574602537: Preparing
+24efcd549ab5: Preparing
+e811ee12aa10: Waiting
+23f8d486123a: Waiting
+afae6f50abb9: Waiting
+136a15f81f25: Waiting
+185574602537: Waiting
+24efcd549ab5: Waiting
+892007193bb6: Layer already exists
+81349fc07565: Layer already exists
+07845babec19: Layer already exists
+7361d0bafa8b: Layer already exists
+e811ee12aa10: Layer already exists
+136a15f81f25: Layer already exists
+23f8d486123a: Layer already exists
+afae6f50abb9: Layer already exists
+24efcd549ab5: Layer already exists
+185574602537: Layer already exists
+86175044cc70: Pushed
+4: digest: sha256:b5849de68ae8d6c06b47bedb8ab51f735cd0556feb9d6336497a23d765e3be4d size: 2633
+Finished: SUCCESS

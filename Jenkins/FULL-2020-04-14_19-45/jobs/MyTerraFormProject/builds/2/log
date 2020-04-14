@@ -1,0 +1,46 @@
+Started by user [8mha:////4IMMv8T2XIKwgqbrGOhOzF4+E7SeVBm4zoNrNbmggpHXAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/MyTerraFormProject
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/rrahul4/terraform-course.git # timeout=10
+Fetching upstream changes from https://github.com/rrahul4/terraform-course.git
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/rrahul4/terraform-course.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 1d0cc4cd3d8d9397801e721ced9ecb372b6f20e4 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 1d0cc4cd3d8d9397801e721ced9ecb372b6f20e4 # timeout=10
+Commit message: "Update README.md"
+ > git rev-list --no-walk 1d0cc4cd3d8d9397801e721ced9ecb372b6f20e4 # timeout=10
+[MyTerraFormProject] $ /bin/sh -xe /tmp/jenkins7838746135479644261.sh
++ git checkout terraform-0.12
+Previous HEAD position was 1d0cc4c Update README.md
+Switched to branch 'terraform-0.12'
+Your branch is up to date with 'origin/terraform-0.12'.
++ cd demo-10
++ ls -all
+total 56
+drwxr-xr-x  4 jenkins jenkins 4096 Apr 10 09:34 .
+drwxr-xr-x 33 jenkins jenkins 4096 Apr 10 09:34 ..
+-rw-r--r--  1 jenkins jenkins  617 Apr 10 09:34 cloudinit.tf
+-rw-r--r--  1 jenkins jenkins  786 Apr 10 09:34 instance.tf
+-rw-r--r--  1 jenkins jenkins  112 Apr 10 09:34 key.tf
+-rw-------  1 jenkins jenkins 1679 Apr  9 17:03 mykey
+-rw-r--r--  1 jenkins jenkins  404 Apr  9 17:03 mykey.pub
+-rw-r--r--  1 jenkins jenkins   46 Apr 10 09:34 provider.tf
+drwxr-xr-x  2 jenkins jenkins 4096 Apr 10 09:34 scripts
+-rw-r--r--  1 jenkins jenkins  442 Apr 10 09:34 securitygroup.tf
+drwxr-xr-x  3 jenkins jenkins 4096 Apr  9 17:03 .terraform
+-rw-r--r--  1 jenkins jenkins  389 Apr 10 09:34 vars.tf
+-rw-r--r--  1 jenkins jenkins   46 Apr 10 09:34 versions.tf
+-rw-r--r--  1 jenkins jenkins 2607 Apr 10 09:34 vpc.tf
++ export AWS_ACCESS_KEY_ID=AKIAIV7E6RWRY3VWFCNQ
++ export AWS_SECRET_ACCESS_KEY=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
++ ssh-keygen -f mykey
+Generating public/private rsa key pair.
+mykey already exists.
+Overwrite (y/n)? Build step 'Execute shell' marked build as failure
+Finished: FAILURE

@@ -1,0 +1,94 @@
+Started by user [8mha:////4IMMv8T2XIKwgqbrGOhOzF4+E7SeVBm4zoNrNbmggpHXAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/6.DockerImageBuild
+[6.DockerImageBuild] $ /bin/sh -xe /tmp/jenkins2313932758432402786.sh
++ cp /var/lib/jenkins/workspace/5.ApplicationPackage/target/addressbook.war .
++ cat
++ sudo docker build . -t rrahul4/addressbook:3
+Sending build context to Docker daemon  16.54MB
+Step 1/4 : FROM tomcat
+latest: Pulling from library/tomcat
+f15005b0235f: Pulling fs layer
+41ebfd3d2fd0: Pulling fs layer
+b998346ba308: Pulling fs layer
+f01ec562c947: Pulling fs layer
+74c11ae3efe8: Pulling fs layer
+3a7e595a3ef5: Pulling fs layer
+f01ec562c947: Waiting
+74c11ae3efe8: Waiting
+3a7e595a3ef5: Waiting
+208407758d73: Pulling fs layer
+b5238120a381: Pulling fs layer
+1716556aae46: Pulling fs layer
+1336a11b2bd2: Pulling fs layer
+208407758d73: Waiting
+b5238120a381: Waiting
+1716556aae46: Waiting
+1336a11b2bd2: Waiting
+41ebfd3d2fd0: Verifying Checksum
+41ebfd3d2fd0: Download complete
+b998346ba308: Verifying Checksum
+b998346ba308: Download complete
+74c11ae3efe8: Verifying Checksum
+74c11ae3efe8: Download complete
+3a7e595a3ef5: Verifying Checksum
+3a7e595a3ef5: Download complete
+f15005b0235f: Verifying Checksum
+f15005b0235f: Download complete
+b5238120a381: Verifying Checksum
+b5238120a381: Download complete
+f15005b0235f: Pull complete
+41ebfd3d2fd0: Pull complete
+b998346ba308: Pull complete
+f01ec562c947: Verifying Checksum
+f01ec562c947: Download complete
+1716556aae46: Verifying Checksum
+1716556aae46: Download complete
+1336a11b2bd2: Verifying Checksum
+1336a11b2bd2: Download complete
+f01ec562c947: Pull complete
+74c11ae3efe8: Pull complete
+3a7e595a3ef5: Pull complete
+208407758d73: Verifying Checksum
+208407758d73: Download complete
+208407758d73: Pull complete
+b5238120a381: Pull complete
+1716556aae46: Pull complete
+1336a11b2bd2: Pull complete
+Digest: sha256:c0ba286d9903006423ff4e2818845f1cc4046aa829bbfbc9b96f887423cd9f47
+Status: Downloaded newer image for tomcat:latest
+ ---> e36064f7c6f0
+Step 2/4 : Maintainer Rahulkumar Rakhonde
+ ---> Running in 4af3411b0a36
+Removing intermediate container 4af3411b0a36
+ ---> 144381ceb1bd
+Step 3/4 : ADD addressbook.war  /usr/local/tomcat/webapps/
+ ---> 166d7e67ab29
+Step 4/4 : CMD "catalina.sh" "run"
+ ---> Running in 0bb49420954c
+Removing intermediate container 0bb49420954c
+ ---> 33a8925f1bd8
+Successfully built 33a8925f1bd8
+Successfully tagged rrahul4/addressbook:3
++ sudo docker push rrahul4/addressbook:3
+The push refers to repository [docker.io/rrahul4/addressbook]
+86175044cc70: Preparing
+7361d0bafa8b: Preparing
+07845babec19: Preparing
+81349fc07565: Preparing
+892007193bb6: Preparing
+e811ee12aa10: Preparing
+23f8d486123a: Preparing
+afae6f50abb9: Preparing
+136a15f81f25: Preparing
+185574602537: Preparing
+24efcd549ab5: Preparing
+23f8d486123a: Waiting
+afae6f50abb9: Waiting
+136a15f81f25: Waiting
+185574602537: Waiting
+24efcd549ab5: Waiting
+e811ee12aa10: Waiting
+denied: requested access to the resource is denied
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

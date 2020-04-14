@@ -1,0 +1,189 @@
+[2020-04-13T11:16:16.788Z] Started by user [8mha:////4IMMv8T2XIKwgqbrGOhOzF4+E7SeVBm4zoNrNbmggpHXAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+[2020-04-13T11:16:16.788Z] Running in Durability level: MAX_SURVIVABILITY
+[2020-04-13T11:16:17.167Z] [8mha:////4HkCTMbguUsNbCviI6jbUHTimscQdH79/E8CCyAshF9uAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[2020-04-13T11:16:17.568Z] [8mha:////4FYj6x4qxNGl+3P432fNY2HeiK28Y3Uw/2z4UscDx0dfAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+[2020-04-13T11:16:17.645Z] Running on [8mha:////4Nbi4X6v9wHiBbajrPyD5IFr5y5ik4Po7OXFngleXFUKAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/lib/jenkins/workspace/0.ApplicationGroovyPipeLine
+[2020-04-13T11:16:17.650Z] [8mha:////4Cw25TOrn2s1G6TaNvbzasdH9l7ksnngnCzuLjNik6qiAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[2020-04-13T11:16:17.686Z] [8mha:////4CJfidGOy+7O32LyggUqwGsd+5YIj+Q4lxu2S1msNPv3AAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaGWsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gdpL1fxvAAAAA==[0m[Pipeline] properties
+[2020-04-13T11:16:18.525Z] [8mha:////4NxAQCU3Ee+QaADc/sLgDXlwCJh/aSUXB7Jcr8zMoPpyAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0QSyIiTXKwglCEkLa6P82SWknTsTVuAOBSkxYsmRbst7zBXWKcKToeGux85i0530YXUl8othdA028pQvXhImC5dJOkow9LVVStrCIVbASsLaoAyWPLsNGtOqumqDQNeccy3YQUHkzwAOYKOSsYv6WOcL2NppE+OP8BcDcZ2C74v3nV78BmoXK/sAAAAA=[0m[Pipeline] stage
+[2020-04-13T11:16:18.692Z] [8mha:////4P1Ig47cS23iXMbd5J2+hxTohys5e5IGr/GbqwVTgr+zAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] { (Checkout)
+[2020-04-13T11:16:18.976Z] [8mha:////4CYn5rqLlUkm4lGBbpqee6QLGkeLstmkeATx7qlN/06UAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbamKsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4geKI23CvAAAAA==[0m[Pipeline] cleanWs
+[2020-04-13T11:16:19.236Z] [WS-CLEANUP] Deleting project workspace...
+[2020-04-13T11:16:19.236Z] [WS-CLEANUP] Deferred wipeout is used...
+[2020-04-13T11:16:19.560Z] [WS-CLEANUP] done
+[2020-04-13T11:16:19.618Z] [8mha:////4HMR/5senrtMcln6vTR5YgpVtNStC3FnDKp+Tcq7aQQaAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbGmOsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfLEnbbvAAAAA==[0m[Pipeline] git
+[2020-04-13T11:16:19.638Z] No credentials specified
+[2020-04-13T11:16:19.639Z] Cloning the remote Git repository
+[2020-04-13T11:16:19.639Z] Cloning repository https://github.com/rrahul4/DevOpsClassCodes
+[2020-04-13T11:16:19.639Z]  > git init /var/lib/jenkins/workspace/0.ApplicationGroovyPipeLine # timeout=10
+[2020-04-13T11:16:19.732Z] Fetching upstream changes from https://github.com/rrahul4/DevOpsClassCodes
+[2020-04-13T11:16:19.732Z]  > git --version # timeout=10
+[2020-04-13T11:16:19.743Z]  > git fetch --tags --progress -- https://github.com/rrahul4/DevOpsClassCodes +refs/heads/*:refs/remotes/origin/* # timeout=10
+[2020-04-13T11:16:21.796Z]  > git config remote.origin.url https://github.com/rrahul4/DevOpsClassCodes # timeout=10
+[2020-04-13T11:16:21.802Z]  > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+[2020-04-13T11:16:21.809Z]  > git config remote.origin.url https://github.com/rrahul4/DevOpsClassCodes # timeout=10
+[2020-04-13T11:16:21.919Z] Fetching upstream changes from https://github.com/rrahul4/DevOpsClassCodes
+[2020-04-13T11:16:21.919Z]  > git fetch --tags --progress -- https://github.com/rrahul4/DevOpsClassCodes +refs/heads/*:refs/remotes/origin/* # timeout=10
+[2020-04-13T11:16:22.700Z]  > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+[2020-04-13T11:16:22.730Z]  > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+[2020-04-13T11:16:22.758Z] Checking out Revision 6321be237bb88144f7d291174910b629c4bba23a (refs/remotes/origin/master)
+[2020-04-13T11:16:22.759Z]  > git config core.sparsecheckout # timeout=10
+[2020-04-13T11:16:22.765Z]  > git checkout -f 6321be237bb88144f7d291174910b629c4bba23a # timeout=10
+[2020-04-13T11:16:22.780Z]  > git branch -a -v --no-abbrev # timeout=10
+[2020-04-13T11:16:22.789Z]  > git checkout -b master 6321be237bb88144f7d291174910b629c4bba23a # timeout=10
+[2020-04-13T11:16:22.831Z] Commit message: "Modifying DockerFile"
+[2020-04-13T11:16:22.832Z]  > git rev-list --no-walk 323e26d9bb6429423a6950447809bb7ad48466ab # timeout=10
+[2020-04-13T11:16:22.887Z] [8mha:////4HnFljV0yerv8dd46SPPMtkUUnQ8mtS5vm2MNT6UAY8pAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiJoZeFY2WZoPEGEGAOZXUwWofJEXs07yMiMlb/67zXv9cYyRRw5OtVYaj2lyqsu9G56auDYXgMPquGLqpgSB6tKO5Rc29OMJYvFvCzHQmNlqQqcPDnBWjfmYYpgyBVniZM7aOS+vuOJTE9lMVG+MEZsbn2dmH6dvwGMXSfId1tBtv8AP3pMS70AAAA=[0m[Pipeline] }
+[2020-04-13T11:16:22.898Z] [8mha:////4FCXIrRFWCpIiF/Ny3J6lQqdhVR07/FG0aZ359ckDGwsAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIMjY1jZZuh8QQRYgxkdjFZhMoTeTXvICMzVv7qv9e81xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0gL0tBtv8AGWMrAb0AAAA=[0m[Pipeline] // stage
+[2020-04-13T11:16:23.005Z] [8mha:////4H7px8MgWfIuxEYycqll1pyR8vyvfKmbXe3uEK1XgAu3AAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjEB2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2Gw/x/INvUXiHMEAAAA=[0m[Pipeline] stage
+[2020-04-13T11:16:23.070Z] [8mha:////4AC+/jOWgjw18JZZB4Vn4kXgrrJgSOASdANvqT4ax1amAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] { (Package)
+[2020-04-13T11:16:23.091Z] [8mha:////4FjcDgfBW/Y91/N2qfYhz3E7sFyHKtFJy6XqqwtunynWAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAbNWnxXCAAAA[0m[Pipeline] withMaven
+[2020-04-13T11:16:23.137Z] [withMaven] Options: []
+[2020-04-13T11:16:23.137Z] [withMaven] Available options: 
+[2020-04-13T11:16:23.137Z] [withMaven] using JDK installation provided by the build agent
+[2020-04-13T11:16:23.242Z] [withMaven] using Maven installation 'MyMaven'
+[2020-04-13T11:16:23.249Z] [8mha:////4CWO7pcwHvL/fy2iuItgRsXTT+QdVARTrL/RiLmK4LslAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSDAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD5WQ+PfCAAAA[0m[Pipeline] {
+[2020-04-13T11:16:23.281Z] [8mha:////4A+nostiqBG9ubXXWC4dNmj8z1KBpqHdXpYqBDAhexuRAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCmgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN7LjSKW+AAAA[0m[Pipeline] sh
+[2020-04-13T11:16:23.582Z] + mvn package
+[2020-04-13T11:16:23.582Z] ----- withMaven Wrapper script -----
+[2020-04-13T11:16:23.582Z] Picked up JAVA_TOOL_OPTIONS: -Dmaven.ext.class.path="/var/lib/jenkins/workspace/0.ApplicationGroovyPipeLine@tmp/withMavenf6f12d50/pipeline-maven-spy.jar" -Dorg.jenkinsci.plugins.pipeline.maven.reportsFolder="/var/lib/jenkins/workspace/0.ApplicationGroovyPipeLine@tmp/withMavenf6f12d50" 
+[2020-04-13T11:16:26.083Z] Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+[2020-04-13T11:16:26.084Z] Maven home: /var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/MyMaven
+[2020-04-13T11:16:26.084Z] Java version: 1.8.0_242, vendor: Private Build, runtime: /usr/lib/jvm/java-8-openjdk-amd64/jre
+[2020-04-13T11:16:26.084Z] Default locale: en_IN, platform encoding: UTF-8
+[2020-04-13T11:16:26.084Z] OS name: "linux", version: "5.3.0-46-generic", arch: "amd64", family: "unix"
+[2020-04-13T11:16:32.574Z] [INFO] [jenkins-event-spy] Generate /var/lib/jenkins/workspace/0.ApplicationGroovyPipeLine@tmp/withMavenf6f12d50/maven-spy-20200413-164632-318536525822345770037.log.tmp ...
+[2020-04-13T11:16:33.129Z] [INFO] Scanning for projects...
+[2020-04-13T11:16:33.129Z] [WARNING] 
+[2020-04-13T11:16:33.129Z] [WARNING] Some problems were encountered while building the effective model for com.edurekademo.tutorial:addressbook:war:2.0
+[2020-04-13T11:16:33.129Z] [WARNING] Reporting configuration should be done in <reporting> section, not in maven-site-plugin <configuration> as reportPlugins parameter. @ line 298, column 40
+[2020-04-13T11:16:33.129Z] [WARNING] 
+[2020-04-13T11:16:33.129Z] [WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[2020-04-13T11:16:33.130Z] [WARNING] 
+[2020-04-13T11:16:33.130Z] [WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[2020-04-13T11:16:33.130Z] [WARNING] 
+[2020-04-13T11:16:33.380Z] [INFO] 
+[2020-04-13T11:16:33.380Z] [INFO] ----------------< com.edurekademo.tutorial:addressbook >----------------
+[2020-04-13T11:16:33.380Z] [INFO] Building Vaadin Addressbook example 2.0
+[2020-04-13T11:16:33.380Z] [INFO] --------------------------------[ war ]---------------------------------
+[2020-04-13T11:16:35.251Z] [INFO] 
+[2020-04-13T11:16:35.251Z] [INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-versions) @ addressbook ---
+[2020-04-13T11:16:36.163Z] [INFO] 
+[2020-04-13T11:16:36.163Z] [INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ addressbook ---
+[2020-04-13T11:16:36.714Z] [INFO] Using 'UTF-8' encoding to copy filtered resources.
+[2020-04-13T11:16:36.714Z] [INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/0.ApplicationGroovyPipeLine/src/main/resources
+[2020-04-13T11:16:36.714Z] [INFO] 
+[2020-04-13T11:16:36.714Z] [INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ addressbook ---
+[2020-04-13T11:16:38.059Z] [INFO] Changes detected - recompiling the module!
+[2020-04-13T11:16:38.059Z] [INFO] Compiling 13 source files to /var/lib/jenkins/workspace/0.ApplicationGroovyPipeLine/target/classes
+[2020-04-13T11:16:42.193Z] [INFO] /var/lib/jenkins/workspace/0.ApplicationGroovyPipeLine/src/main/java/com/edurekademo/tutorial/addressbook/AddressbookUI.java: Some input files use or override a deprecated API.
+[2020-04-13T11:16:42.193Z] [INFO] /var/lib/jenkins/workspace/0.ApplicationGroovyPipeLine/src/main/java/com/edurekademo/tutorial/addressbook/AddressbookUI.java: Recompile with -Xlint:deprecation for details.
+[2020-04-13T11:16:42.193Z] [INFO] /var/lib/jenkins/workspace/0.ApplicationGroovyPipeLine/src/main/java/com/edurekademo/tutorial/addressbook/backend/ContactService.java: /var/lib/jenkins/workspace/0.ApplicationGroovyPipeLine/src/main/java/com/edurekademo/tutorial/addressbook/backend/ContactService.java uses unchecked or unsafe operations.
+[2020-04-13T11:16:42.193Z] [INFO] /var/lib/jenkins/workspace/0.ApplicationGroovyPipeLine/src/main/java/com/edurekademo/tutorial/addressbook/backend/ContactService.java: Recompile with -Xlint:unchecked for details.
+[2020-04-13T11:16:42.193Z] [INFO] 
+[2020-04-13T11:16:42.193Z] [INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ addressbook ---
+[2020-04-13T11:16:42.193Z] [INFO] Using 'UTF-8' encoding to copy filtered resources.
+[2020-04-13T11:16:42.193Z] [INFO] Copying 1 resource
+[2020-04-13T11:16:42.193Z] [INFO] 
+[2020-04-13T11:16:42.193Z] [INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ addressbook ---
+[2020-04-13T11:16:42.193Z] [INFO] Changes detected - recompiling the module!
+[2020-04-13T11:16:42.193Z] [INFO] Compiling 5 source files to /var/lib/jenkins/workspace/0.ApplicationGroovyPipeLine/target/test-classes
+[2020-04-13T11:16:42.744Z] [INFO] 
+[2020-04-13T11:16:42.744Z] [INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ addressbook ---
+[2020-04-13T11:16:45.236Z] 
+[2020-04-13T11:16:45.236Z] -------------------------------------------------------
+[2020-04-13T11:16:45.236Z]  T E S T S
+[2020-04-13T11:16:45.236Z] -------------------------------------------------------
+[2020-04-13T11:16:45.487Z] Picked up JAVA_TOOL_OPTIONS: -Dmaven.ext.class.path="/var/lib/jenkins/workspace/0.ApplicationGroovyPipeLine@tmp/withMavenf6f12d50/pipeline-maven-spy.jar" -Dorg.jenkinsci.plugins.pipeline.maven.reportsFolder="/var/lib/jenkins/workspace/0.ApplicationGroovyPipeLine@tmp/withMavenf6f12d50" 
+[2020-04-13T11:16:46.835Z] Running com.edurekademo.utilities.TestHexAsciiConversion
+[2020-04-13T11:16:46.835Z] testing ascii convertion into hexadecimal
+[2020-04-13T11:16:46.835Z] 74657374696e6720617363696920636f6e76657274696f6e20696e746f2068657861646563696d616c
+[2020-04-13T11:16:47.096Z] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 sec - in com.edurekademo.utilities.TestHexAsciiConversion
+[2020-04-13T11:16:47.097Z] Running com.edurekademo.utilities.TestLogger
+[2020-04-13T11:16:47.097Z] [pool-1-thread-5] INFO com.edurekademo.utilities.TestLogger - java.lang.ArithmeticException: / by zero
+[2020-04-13T11:16:47.097Z] Cause:at com.edurekademo.utilities.TestLogger.testGetErrorMessage1(TestLogger.java:14)
+[2020-04-13T11:16:47.097Z] Cause:at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[2020-04-13T11:16:47.097Z] [pool-1-thread-6] INFO com.edurekademo.utilities.TestLogger - java.lang.ArithmeticException: / by zero
+[2020-04-13T11:16:47.097Z] Cause:at com.edurekademo.utilities.TestLogger.testGetErrorMessage2(TestLogger.java:30)
+[2020-04-13T11:16:47.097Z] Cause:at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[2020-04-13T11:16:47.097Z] SLF4J: Class path contains multiple SLF4J bindings.
+[2020-04-13T11:16:47.097Z] SLF4J: Found binding in [jar:file:/var/lib/jenkins/.m2/repository/org/slf4j/slf4j-simple/1.7.7/slf4j-simple-1.7.7.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+[2020-04-13T11:16:47.097Z] SLF4J: Found binding in [jar:file:/var/lib/jenkins/.m2/repository/org/slf4j/slf4j-log4j12/1.7.7/slf4j-log4j12-1.7.7.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+[2020-04-13T11:16:47.097Z] SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+[2020-04-13T11:16:47.097Z] SLF4J: Actual binding is of type [org.slf4j.impl.SimpleLoggerFactory]
+[2020-04-13T11:16:47.097Z] [pool-1-thread-7] INFO com.edurekademo.utilities.TestLogger - java.lang.ArithmeticException: / by zero
+[2020-04-13T11:16:47.097Z] Cause:at com.edurekademo.utilities.ExceptionThrower.getCounter(ExceptionThrower.java:13)
+[2020-04-13T11:16:47.097Z] Cause:at com.edurekademo.utilities.TestLogger.testGetErrorMessage3(TestLogger.java:45)
+[2020-04-13T11:16:47.097Z] [pool-1-thread-8] INFO com.edurekademo.utilities.TestLogger - java.io.IOException: TESTIOEXCEPTION
+[2020-04-13T11:16:47.097Z] Cause:at com.edurekademo.utilities.ExceptionThrower.doNothing(ExceptionThrower.java:18)
+[2020-04-13T11:16:47.097Z] Cause:at com.edurekademo.utilities.TestLogger.testGetErrorMessage4(TestLogger.java:60)
+[2020-04-13T11:16:47.097Z] [pool-1-thread-9] ERROR com.edurekademo.utilities.ExceptionThrower - java.lang.Exception: DEAR
+[2020-04-13T11:16:47.097Z] Cause:at com.edurekademo.utilities.ExceptionThrower.doYYY(ExceptionThrower.java:35)
+[2020-04-13T11:16:47.097Z] Cause:at com.edurekademo.utilities.ExceptionThrower.doXXX(ExceptionThrower.java:23)
+[2020-04-13T11:16:47.097Z] [pool-1-thread-9] INFO com.edurekademo.utilities.TestLogger - java.lang.Exception: TEST MESSAGE
+[2020-04-13T11:16:47.097Z] Cause:at com.edurekademo.utilities.ExceptionThrower.doCheck(ExceptionThrower.java:43)
+[2020-04-13T11:16:47.097Z] Cause:at com.edurekademo.utilities.TestLogger.testGetErrorMessage5(TestLogger.java:75)
+[2020-04-13T11:16:47.097Z] ***** java.lang.Exception: TEST MESSAGE
+[2020-04-13T11:16:47.097Z] Cause:at com.edurekademo.utilities.ExceptionThrower.doCheck(ExceptionThrower.java:43)
+[2020-04-13T11:16:47.097Z] Cause:at com.edurekademo.utilities.TestLogger.testGetErrorMessage5(TestLogger.java:75)
+[2020-04-13T11:16:47.097Z] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.544 sec - in com.edurekademo.utilities.TestLogger
+[2020-04-13T11:16:47.359Z] Running com.edurekademo.utilities.TestGenericComparator
+[2020-04-13T11:16:47.359Z] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.333 sec - in com.edurekademo.utilities.TestGenericComparator
+[2020-04-13T11:16:47.919Z] 
+[2020-04-13T11:16:47.919Z] Results :
+[2020-04-13T11:16:47.919Z] 
+[2020-04-13T11:16:47.919Z] Tests run: 23, Failures: 0, Errors: 0, Skipped: 0
+[2020-04-13T11:16:47.919Z] 
+[2020-04-13T11:16:48.471Z] [INFO] 
+[2020-04-13T11:16:48.471Z] [INFO] --- maven-war-plugin:2.2:war (default-war) @ addressbook ---
+[2020-04-13T11:16:50.344Z] [INFO] Packaging webapp
+[2020-04-13T11:16:50.344Z] [INFO] Assembling webapp [addressbook] in [/var/lib/jenkins/workspace/0.ApplicationGroovyPipeLine/target/addressbook]
+[2020-04-13T11:16:50.344Z] [INFO] Processing war project
+[2020-04-13T11:16:50.595Z] [INFO] Webapp assembled in [553 msecs]
+[2020-04-13T11:16:50.845Z] [INFO] Building war: /var/lib/jenkins/workspace/0.ApplicationGroovyPipeLine/target/addressbook.war
+[2020-04-13T11:16:52.715Z] [INFO] ------------------------------------------------------------------------
+[2020-04-13T11:16:52.715Z] [INFO] BUILD SUCCESS
+[2020-04-13T11:16:52.715Z] [INFO] ------------------------------------------------------------------------
+[2020-04-13T11:16:52.715Z] [INFO] Total time:  19.737 s
+[2020-04-13T11:16:52.715Z] [INFO] Finished at: 2020-04-13T16:46:52+05:30
+[2020-04-13T11:16:52.715Z] [INFO] ------------------------------------------------------------------------
+[2020-04-13T11:16:52.715Z] [INFO] [jenkins-event-spy] Generated /var/lib/jenkins/workspace/0.ApplicationGroovyPipeLine@tmp/withMavenf6f12d50/maven-spy-20200413-164632-318536525822345770037.log
+[2020-04-13T11:16:55.425Z] [8mha:////4Fg6ITAXgCroINBCxxt6ZryoC3XO9aHy95XXwxgdX5kNAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCkSBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQGOY4V7vgAAAA==[0m[Pipeline] }
+[2020-04-13T11:16:56.054Z] [withMaven] artifactsPublisher - Archive artifact pom.xml under com/edurekademo/tutorial/addressbook/2.0/addressbook-2.0.pom
+[2020-04-13T11:16:56.054Z] [withMaven] artifactsPublisher - Archive artifact target/addressbook.war under com/edurekademo/tutorial/addressbook/2.0/addressbook-2.0.war
+[2020-04-13T11:16:56.912Z] [withMaven] junitPublisher - Archive test results for Maven artifact com.edurekademo.tutorial:addressbook:war:2.0 generated by maven-surefire-plugin:test (default-test): target/surefire-reports/*.xml
+[2020-04-13T11:16:56.912Z] Recording test results
+[2020-04-13T11:16:57.167Z] [withMaven] openTasksPublisher - Scan Tasks for Maven artifact com.edurekademo.tutorial:addressbook:war:2.0 in source directory src/main/java
+[2020-04-13T11:16:57.185Z] [TASKS] Scanning folder '/var/lib/jenkins/workspace/0.ApplicationGroovyPipeLine' for files matching the pattern 'src/main/java/**/*' - excludes: null
+[2020-04-13T11:16:57.185Z] [TASKS] Found 13 files to scan for tasks
+[2020-04-13T11:16:57.185Z] [TASKS] Found 0 open tasks.
+[2020-04-13T11:16:57.185Z] Skipping warnings blame since pipelines do not have an SCM link.%n
+[2020-04-13T11:16:57.255Z] [TASKS] Computing warning deltas based on reference build #16
+[2020-04-13T11:16:57.255Z] [withMaven] Publishers: Pipeline Graph Publisher: 1 ms, Generated Artifacts Publisher: 857 ms, Junit Publisher: 254 ms, Open Task Scanner Publisher: 87 ms
+[2020-04-13T11:16:57.259Z] [8mha:////4KjugxSXNe3tq7ryiWnlnDKDR759pkqi4i41anFfLlsDAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJAokRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g3N4dT9vgAAAA==[0m[Pipeline] // withMaven
+[2020-04-13T11:16:57.269Z] [8mha:////4NLE/aVaLpHVxq/qMIoUEHpgBpeXpghQOEkgS+akpKSGAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiRIUQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N8un7Ki+AAAA[0m[Pipeline] }
+[2020-04-13T11:16:57.281Z] [8mha:////4P5nx8JGY+phMH2j0L/k9xQbkjDgAwoDltuty/Jy2TjfAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICaRFVWisNLzCxMU6sO2M7JBUv4mv8AYtIVGyx2tlmXm9YxwAnDgZ7TYOl2Fn0bjR54cRhuDqesOcLdkyRncZWTy0r3SzYctKwpChhJWCjqXMcLZkEW9HLh6ycJFOdU8jfUUBp1R2eUIhsTjKkL8wBdrdRRaaf568AZu8TlPU+16H+AAjcDMm+AAAA[0m[Pipeline] // stage
+[2020-04-13T11:16:57.297Z] [8mha:////4FK0cZFWL0Bl3TwtxZ2CwwxxjBZksyBC32cYEE2e4nUFAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjEB2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INji2eq8EAAAA=[0m[Pipeline] stage
+[2020-04-13T11:16:57.322Z] [8mha:////4KSjDTaFdShqh4sBQODcsucJo3J4mdxb2Ct8SbG7QdkJAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUdEVMrFEXThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbyhjgRMFwp7GzGFvLez+aOfFMobt5ytzRlbeEkbzmjc4NKX1ea0NJw6qCwUbAVmPrKVo0CXbCyYesvERTXVKYt6MAZtUATyjETE4ypG+ZAuzvo4qEP85fAEx9AlYfFquXZ/kBAsTc3cIAAAA=[0m[Pipeline] { (Docker Image Build)
+[2020-04-13T11:16:57.339Z] [8mha:////4L3QRCMtAJf2/6Lb7wsLO7bfwPD16nl9PAm4AbsHqncqAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyE0vHypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzD5B3baf2vs3w5BRkb4AAAA=[0m[Pipeline] sh
+[2020-04-13T11:16:57.629Z] + sudo docker build . -t rrahul4/addressbook:17
+[2020-04-13T11:17:19.436Z] Sending build context to Docker daemon  35.03MB
+[2020-04-13T11:17:19.436Z] Step 1/4 : FROM tomcat
+[2020-04-13T11:17:19.436Z]  ---> e36064f7c6f0
+[2020-04-13T11:17:19.436Z] Step 2/4 : Maintainer Rahulkumar Rakhonde
+[2020-04-13T11:17:19.436Z]  ---> Using cache
+[2020-04-13T11:17:19.436Z]  ---> 144381ceb1bd
+[2020-04-13T11:17:19.436Z] Step 3/4 : COPY target/addressbook.war  /usr/local/tomcat/webapps/
+[2020-04-13T11:17:27.472Z]  ---> 0d01a57d71d0
+[2020-04-13T11:17:27.472Z] Step 4/4 : CMD "catalina.sh" "run"
+[2020-04-13T11:17:27.472Z]  ---> Running in 07f40de97e88
+[2020-04-13T11:17:27.472Z] Removing intermediate container 07f40de97e88
+[2020-04-13T11:17:27.472Z]  ---> 0468134bb807
+[2020-04-13T11:17:27.472Z] Successfully built 0468134bb807
+[2020-04-13T11:17:27.472Z] Successfully tagged rrahul4/addressbook:17
+[2020-04-13T11:17:27.501Z] [8mha:////4I5yWTdEzQx+loB20Vk7I7/ufAnSzdXwe0Rw7Jq0QSbvAAAApB+LCAAAAAAAAP9tjbEOwiAURV9rHFwd/QiaNG7GyZWw+AXYIkLJexSodPKL/DX/QbSJk3e4uecu5/mCdQxwpKCZVTgYjJ1h3k26LJYpDFdHmVm6sI4wklNMqCyoV6cFBSUFS6oaVhw2CjtH0aBOsOVW3mXjJOrmnEL5Dhxq04/wgIoXc5IhfWEOsLtNfST8ef4KYPY+Qd3uP9W+Ad3NsHm+AAAA[0m[Pipeline] }
+[2020-04-13T11:17:27.512Z] [8mha:////4N+VJeuWZoDRK7g59fsUOGrUTkOvwGZI0JsXhkTI97AkAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbN8JP5Su+AAAA[0m[Pipeline] // stage
+[2020-04-13T11:17:27.520Z] [8mha:////4J3uiDoaw+CxwTSEc7vqzQN5hzN99eRHqSrCIT8NYSt6AAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKREKJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Nu9INt9AIuskdu9AAAA[0m[Pipeline] }
+[2020-04-13T11:17:27.540Z] [8mha:////4DA0E1YjoUqUonYLi8/oxaanpJ4hCo0VjAIPPKF2AKNUAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRoKBAVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Nu9INt9AJgQlXi9AAAA[0m[Pipeline] // node
+[2020-04-13T11:17:27.550Z] [8mha:////4EvyCwfh/DUPKPp+WHwKMJRgHuscHsuj+e7IDbLs77QuAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IkTCbGybVh8Qsq1Fpo3sP2IUx+kb/mP0gkcfJO95zlvN5Yp4gjR6daS52nVHvVh8HNT40cu2vgUbV8UTVT4mBVZceKG3tasGKxWJblWGlsLNWBkycn2OrWPEwRDLniLHF2B43cN3c8kem5LCbKF6aI3W1oEtOv8zeAqe8FebkXZOUH37fCjb0AAAA=[0m[Pipeline] End of Pipeline
+[2020-04-13T11:17:30.072Z] Finished: SUCCESS

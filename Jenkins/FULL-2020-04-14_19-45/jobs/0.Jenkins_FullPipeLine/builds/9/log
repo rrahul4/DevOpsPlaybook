@@ -1,0 +1,359 @@
+[2020-04-13T14:19:18.915Z] Started by user [8mha:////4IMMv8T2XIKwgqbrGOhOzF4+E7SeVBm4zoNrNbmggpHXAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+[2020-04-13T14:19:18.917Z] Running in Durability level: MAX_SURVIVABILITY
+[2020-04-13T14:19:19.287Z] [8mha:////4HkCTMbguUsNbCviI6jbUHTimscQdH79/E8CCyAshF9uAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[2020-04-13T14:19:19.325Z] [8mha:////4FYj6x4qxNGl+3P432fNY2HeiK28Y3Uw/2z4UscDx0dfAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+[2020-04-13T14:19:19.373Z] Running on [8mha:////4Nbi4X6v9wHiBbajrPyD5IFr5y5ik4Po7OXFngleXFUKAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/lib/jenkins/workspace/0.Jenkins_FullPipeLine
+[2020-04-13T14:19:19.377Z] [8mha:////4Cw25TOrn2s1G6TaNvbzasdH9l7ksnngnCzuLjNik6qiAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[2020-04-13T14:19:19.414Z] [8mha:////4CJfidGOy+7O32LyggUqwGsd+5YIj+Q4lxu2S1msNPv3AAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaGWsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gdpL1fxvAAAAA==[0m[Pipeline] properties
+[2020-04-13T14:19:19.492Z] [8mha:////4NxAQCU3Ee+QaADc/sLgDXlwCJh/aSUXB7Jcr8zMoPpyAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0QSyIiTXKwglCEkLa6P82SWknTsTVuAOBSkxYsmRbst7zBXWKcKToeGux85i0530YXUl8othdA028pQvXhImC5dJOkow9LVVStrCIVbASsLaoAyWPLsNGtOqumqDQNeccy3YQUHkzwAOYKOSsYv6WOcL2NppE+OP8BcDcZ2C74v3nV78BmoXK/sAAAAA=[0m[Pipeline] stage
+[2020-04-13T14:19:19.541Z] [8mha:////4P1Ig47cS23iXMbd5J2+hxTohys5e5IGr/GbqwVTgr+zAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] { (Checkout)
+[2020-04-13T14:19:19.568Z] [8mha:////4CYn5rqLlUkm4lGBbpqee6QLGkeLstmkeATx7qlN/06UAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbamKsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4geKI23CvAAAAA==[0m[Pipeline] cleanWs
+[2020-04-13T14:19:19.578Z] [WS-CLEANUP] Deleting project workspace...
+[2020-04-13T14:19:19.578Z] [WS-CLEANUP] Deferred wipeout is used...
+[2020-04-13T14:19:19.585Z] [WS-CLEANUP] done
+[2020-04-13T14:19:19.600Z] [8mha:////4HMR/5senrtMcln6vTR5YgpVtNStC3FnDKp+Tcq7aQQaAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbGmOsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfLEnbbvAAAAA==[0m[Pipeline] git
+[2020-04-13T14:19:19.668Z] No credentials specified
+[2020-04-13T14:19:19.669Z] Cloning the remote Git repository
+[2020-04-13T14:19:19.669Z] Cloning repository https://github.com/rrahul4/game-of-life
+[2020-04-13T14:19:19.669Z]  > git init /var/lib/jenkins/workspace/0.Jenkins_FullPipeLine # timeout=10
+[2020-04-13T14:19:19.787Z] Fetching upstream changes from https://github.com/rrahul4/game-of-life
+[2020-04-13T14:19:19.787Z]  > git --version # timeout=10
+[2020-04-13T14:19:19.842Z]  > git fetch --tags --progress -- https://github.com/rrahul4/game-of-life +refs/heads/*:refs/remotes/origin/* # timeout=10
+[2020-04-13T14:19:40.491Z]  > git config remote.origin.url https://github.com/rrahul4/game-of-life # timeout=10
+[2020-04-13T14:19:40.497Z]  > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+[2020-04-13T14:19:40.503Z]  > git config remote.origin.url https://github.com/rrahul4/game-of-life # timeout=10
+[2020-04-13T14:19:40.513Z] Fetching upstream changes from https://github.com/rrahul4/game-of-life
+[2020-04-13T14:19:40.514Z]  > git fetch --tags --progress -- https://github.com/rrahul4/game-of-life +refs/heads/*:refs/remotes/origin/* # timeout=10
+[2020-04-13T14:19:41.666Z]  > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+[2020-04-13T14:19:41.680Z]  > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+[2020-04-13T14:19:41.691Z] Checking out Revision c24bb1ae41bfd5980ce9f0aa8b9a636b920c71fd (refs/remotes/origin/master)
+[2020-04-13T14:19:41.692Z]  > git config core.sparsecheckout # timeout=10
+[2020-04-13T14:19:41.709Z]  > git checkout -f c24bb1ae41bfd5980ce9f0aa8b9a636b920c71fd # timeout=10
+[2020-04-13T14:19:42.510Z]  > git branch -a -v --no-abbrev # timeout=10
+[2020-04-13T14:19:42.530Z]  > git checkout -b master c24bb1ae41bfd5980ce9f0aa8b9a636b920c71fd # timeout=10
+[2020-04-13T14:19:43.112Z] Commit message: "Merge pull request #198 from GeraldScott/master"
+[2020-04-13T14:19:43.112Z]  > git rev-list --no-walk c24bb1ae41bfd5980ce9f0aa8b9a636b920c71fd # timeout=10
+[2020-04-13T14:19:43.288Z] [8mha:////4HnFljV0yerv8dd46SPPMtkUUnQ8mtS5vm2MNT6UAY8pAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiJoZeFY2WZoPEGEGAOZXUwWofJEXs07yMiMlb/67zXv9cYyRRw5OtVYaj2lyqsu9G56auDYXgMPquGLqpgSB6tKO5Rc29OMJYvFvCzHQmNlqQqcPDnBWjfmYYpgyBVniZM7aOS+vuOJTE9lMVG+MEZsbn2dmH6dvwGMXSfId1tBtv8AP3pMS70AAAA=[0m[Pipeline] }
+[2020-04-13T14:19:43.306Z] [8mha:////4FCXIrRFWCpIiF/Ny3J6lQqdhVR07/FG0aZ359ckDGwsAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIMjY1jZZuh8QQRYgxkdjFZhMoTeTXvICMzVv7qv9e81xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0gL0tBtv8AGWMrAb0AAAA=[0m[Pipeline] // stage
+[2020-04-13T14:19:43.330Z] [8mha:////4H7px8MgWfIuxEYycqll1pyR8vyvfKmbXe3uEK1XgAu3AAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjEB2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2Gw/x/INvUXiHMEAAAA=[0m[Pipeline] stage
+[2020-04-13T14:19:43.341Z] [8mha:////4AC+/jOWgjw18JZZB4Vn4kXgrrJgSOASdANvqT4ax1amAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] { (Package)
+[2020-04-13T14:19:43.361Z] [8mha:////4FjcDgfBW/Y91/N2qfYhz3E7sFyHKtFJy6XqqwtunynWAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAbNWnxXCAAAA[0m[Pipeline] withMaven
+[2020-04-13T14:19:43.375Z] [withMaven] Options: []
+[2020-04-13T14:19:43.375Z] [withMaven] Available options: 
+[2020-04-13T14:19:43.375Z] [withMaven] using JDK installation provided by the build agent
+[2020-04-13T14:19:43.429Z] [withMaven] using Maven installation 'MyMaven'
+[2020-04-13T14:19:43.435Z] [8mha:////4CWO7pcwHvL/fy2iuItgRsXTT+QdVARTrL/RiLmK4LslAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSDAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD5WQ+PfCAAAA[0m[Pipeline] {
+[2020-04-13T14:19:43.477Z] [8mha:////4A+nostiqBG9ubXXWC4dNmj8z1KBpqHdXpYqBDAhexuRAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCmgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN7LjSKW+AAAA[0m[Pipeline] sh
+[2020-04-13T14:19:43.741Z] + mvn package
+[2020-04-13T14:19:43.742Z] ----- withMaven Wrapper script -----
+[2020-04-13T14:19:43.742Z] Picked up JAVA_TOOL_OPTIONS: -Dmaven.ext.class.path="/var/lib/jenkins/workspace/0.Jenkins_FullPipeLine@tmp/withMaven6528b5d1/pipeline-maven-spy.jar" -Dorg.jenkinsci.plugins.pipeline.maven.reportsFolder="/var/lib/jenkins/workspace/0.Jenkins_FullPipeLine@tmp/withMaven6528b5d1" 
+[2020-04-13T14:19:43.992Z] Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+[2020-04-13T14:19:43.992Z] Maven home: /var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/MyMaven
+[2020-04-13T14:19:43.992Z] Java version: 1.8.0_242, vendor: Private Build, runtime: /usr/lib/jvm/java-8-openjdk-amd64/jre
+[2020-04-13T14:19:43.992Z] Default locale: en_IN, platform encoding: UTF-8
+[2020-04-13T14:19:43.993Z] OS name: "linux", version: "5.3.0-46-generic", arch: "amd64", family: "unix"
+[2020-04-13T14:19:45.859Z] [INFO] [jenkins-event-spy] Generate /var/lib/jenkins/workspace/0.Jenkins_FullPipeLine@tmp/withMaven6528b5d1/maven-spy-20200413-194945-559529336345255296468.log.tmp ...
+[2020-04-13T14:19:46.110Z] [INFO] Scanning for projects...
+[2020-04-13T14:19:46.662Z] [WARNING] 
+[2020-04-13T14:19:46.662Z] [WARNING] Some problems were encountered while building the effective model for com.wakaleo.gameoflife:gameoflife-build:jar:1.0-SNAPSHOT
+[2020-04-13T14:19:46.662Z] [WARNING] Reporting configuration should be done in <reporting> section, not in maven-site-plugin <configuration> as reportPlugins parameter.
+[2020-04-13T14:19:46.662Z] [WARNING] 
+[2020-04-13T14:19:46.662Z] [WARNING] Some problems were encountered while building the effective model for com.wakaleo.gameoflife:gameoflife-core:jar:1.0-SNAPSHOT
+[2020-04-13T14:19:46.662Z] [WARNING] Reporting configuration should be done in <reporting> section, not in maven-site-plugin <configuration> as reportPlugins parameter.
+[2020-04-13T14:19:46.662Z] [WARNING] 
+[2020-04-13T14:19:46.662Z] [WARNING] Some problems were encountered while building the effective model for com.wakaleo.gameoflife:gameoflife-web:war:1.0-SNAPSHOT
+[2020-04-13T14:19:46.662Z] [WARNING] Reporting configuration should be done in <reporting> section, not in maven-site-plugin <configuration> as reportPlugins parameter.
+[2020-04-13T14:19:46.662Z] [WARNING] 
+[2020-04-13T14:19:46.662Z] [WARNING] Some problems were encountered while building the effective model for com.wakaleo.gameoflife:gameoflife:pom:1.0-SNAPSHOT
+[2020-04-13T14:19:46.662Z] [WARNING] Reporting configuration should be done in <reporting> section, not in maven-site-plugin <configuration> as reportPlugins parameter. @ line 302, column 40
+[2020-04-13T14:19:46.662Z] [WARNING] 
+[2020-04-13T14:19:46.662Z] [WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[2020-04-13T14:19:46.662Z] [WARNING] 
+[2020-04-13T14:19:46.662Z] [WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[2020-04-13T14:19:46.662Z] [WARNING] 
+[2020-04-13T14:19:46.662Z] [INFO] ------------------------------------------------------------------------
+[2020-04-13T14:19:46.662Z] [INFO] Reactor Build Order:
+[2020-04-13T14:19:46.662Z] [INFO] 
+[2020-04-13T14:19:46.662Z] [INFO] gameoflife                                                         [pom]
+[2020-04-13T14:19:46.662Z] [INFO] gameoflife-build                                                   [jar]
+[2020-04-13T14:19:46.663Z] [INFO] gameoflife-core                                                    [jar]
+[2020-04-13T14:19:46.663Z] [INFO] gameoflife-web                                                     [war]
+[2020-04-13T14:19:46.663Z] [INFO] 
+[2020-04-13T14:19:46.663Z] [INFO] -----------------< com.wakaleo.gameoflife:gameoflife >------------------
+[2020-04-13T14:19:46.663Z] [INFO] Building gameoflife 1.0-SNAPSHOT                                   [1/4]
+[2020-04-13T14:19:46.663Z] [INFO] --------------------------------[ pom ]---------------------------------
+[2020-04-13T14:19:46.914Z] [INFO] 
+[2020-04-13T14:19:46.914Z] [INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-versions) @ gameoflife ---
+[2020-04-13T14:19:47.466Z] [INFO] 
+[2020-04-13T14:19:47.466Z] [INFO] --- jacoco-maven-plugin:0.7.2.201409121644:prepare-agent (jacoco-initialize) @ gameoflife ---
+[2020-04-13T14:19:48.844Z] [INFO] argLine set to -javaagent:/var/lib/jenkins/.m2/repository/org/jacoco/org.jacoco.agent/0.7.2.201409121644/org.jacoco.agent-0.7.2.201409121644-runtime.jar=destfile=/var/lib/jenkins/workspace/0.Jenkins_FullPipeLine/target/jacoco.exec
+[2020-04-13T14:19:48.844Z] [INFO] 
+[2020-04-13T14:19:48.844Z] [INFO] --- maven-surefire-plugin:2.11:test (unit-tests) @ gameoflife ---
+[2020-04-13T14:19:49.097Z] [INFO] No tests to run.
+[2020-04-13T14:19:49.097Z] [INFO] Surefire report directory: /var/lib/jenkins/workspace/0.Jenkins_FullPipeLine/target/surefire-reports
+[2020-04-13T14:19:50.010Z] 
+[2020-04-13T14:19:50.010Z] -------------------------------------------------------
+[2020-04-13T14:19:50.010Z]  T E S T S
+[2020-04-13T14:19:50.010Z] -------------------------------------------------------
+[2020-04-13T14:19:50.264Z] Picked up JAVA_TOOL_OPTIONS: -Dmaven.ext.class.path="/var/lib/jenkins/workspace/0.Jenkins_FullPipeLine@tmp/withMaven6528b5d1/pipeline-maven-spy.jar" -Dorg.jenkinsci.plugins.pipeline.maven.reportsFolder="/var/lib/jenkins/workspace/0.Jenkins_FullPipeLine@tmp/withMaven6528b5d1" 
+[2020-04-13T14:19:52.760Z] 
+[2020-04-13T14:19:52.760Z] Results :
+[2020-04-13T14:19:52.760Z] 
+[2020-04-13T14:19:52.760Z] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+[2020-04-13T14:19:52.760Z] 
+[2020-04-13T14:19:52.760Z] [INFO] 
+[2020-04-13T14:19:52.760Z] [INFO] --- maven-easyb-plugin:1.4:test (default) @ gameoflife ---
+[2020-04-13T14:19:56.003Z] [INFO] /var/lib/jenkins/workspace/0.Jenkins_FullPipeLine/src/test/stories does not exists.  Skipping easyb testing
+[2020-04-13T14:19:56.003Z] [INFO] 
+[2020-04-13T14:19:56.003Z] [INFO] --------------< com.wakaleo.gameoflife:gameoflife-build >---------------
+[2020-04-13T14:19:56.003Z] [INFO] Building gameoflife-build 1.0-SNAPSHOT                             [2/4]
+[2020-04-13T14:19:56.003Z] [INFO] --------------------------------[ jar ]---------------------------------
+[2020-04-13T14:19:58.493Z] [INFO] 
+[2020-04-13T14:19:58.494Z] [INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-versions) @ gameoflife-build ---
+[2020-04-13T14:19:58.494Z] [INFO] 
+[2020-04-13T14:19:58.494Z] [INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ gameoflife-build ---
+[2020-04-13T14:19:59.046Z] [INFO] Using 'UTF-8' encoding to copy filtered resources.
+[2020-04-13T14:19:59.047Z] [INFO] Copying 2 resources
+[2020-04-13T14:19:59.047Z] [INFO] 
+[2020-04-13T14:19:59.047Z] [INFO] --- jacoco-maven-plugin:0.7.2.201409121644:prepare-agent (jacoco-initialize) @ gameoflife-build ---
+[2020-04-13T14:19:59.047Z] [INFO] argLine set to -javaagent:/var/lib/jenkins/.m2/repository/org/jacoco/org.jacoco.agent/0.7.2.201409121644/org.jacoco.agent-0.7.2.201409121644-runtime.jar=destfile=/var/lib/jenkins/workspace/0.Jenkins_FullPipeLine/gameoflife-build/target/jacoco.exec
+[2020-04-13T14:19:59.047Z] [INFO] 
+[2020-04-13T14:19:59.047Z] [INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ gameoflife-build ---
+[2020-04-13T14:20:00.393Z] [INFO] No sources to compile
+[2020-04-13T14:20:00.393Z] [INFO] 
+[2020-04-13T14:20:00.393Z] [INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ gameoflife-build ---
+[2020-04-13T14:20:00.393Z] [INFO] Using 'UTF-8' encoding to copy filtered resources.
+[2020-04-13T14:20:00.393Z] [INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/0.Jenkins_FullPipeLine/gameoflife-build/src/test/resources
+[2020-04-13T14:20:00.393Z] [INFO] 
+[2020-04-13T14:20:00.393Z] [INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ gameoflife-build ---
+[2020-04-13T14:20:00.393Z] [INFO] No sources to compile
+[2020-04-13T14:20:00.393Z] [INFO] 
+[2020-04-13T14:20:00.393Z] [INFO] --- maven-surefire-plugin:2.11:test (default-test) @ gameoflife-build ---
+[2020-04-13T14:20:00.393Z] [INFO] Tests are skipped.
+[2020-04-13T14:20:00.393Z] [INFO] 
+[2020-04-13T14:20:00.393Z] [INFO] --- maven-surefire-plugin:2.11:test (unit-tests) @ gameoflife-build ---
+[2020-04-13T14:20:00.393Z] [INFO] No tests to run.
+[2020-04-13T14:20:00.394Z] [INFO] Surefire report directory: /var/lib/jenkins/workspace/0.Jenkins_FullPipeLine/gameoflife-build/target/surefire-reports
+[2020-04-13T14:20:00.394Z] 
+[2020-04-13T14:20:00.394Z] -------------------------------------------------------
+[2020-04-13T14:20:00.394Z]  T E S T S
+[2020-04-13T14:20:00.394Z] -------------------------------------------------------
+[2020-04-13T14:20:00.394Z] Picked up JAVA_TOOL_OPTIONS: -Dmaven.ext.class.path="/var/lib/jenkins/workspace/0.Jenkins_FullPipeLine@tmp/withMaven6528b5d1/pipeline-maven-spy.jar" -Dorg.jenkinsci.plugins.pipeline.maven.reportsFolder="/var/lib/jenkins/workspace/0.Jenkins_FullPipeLine@tmp/withMaven6528b5d1" 
+[2020-04-13T14:20:01.306Z] 
+[2020-04-13T14:20:01.306Z] Results :
+[2020-04-13T14:20:01.306Z] 
+[2020-04-13T14:20:01.306Z] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+[2020-04-13T14:20:01.306Z] 
+[2020-04-13T14:20:01.306Z] [INFO] 
+[2020-04-13T14:20:01.306Z] [INFO] --- maven-easyb-plugin:1.4:test (default) @ gameoflife-build ---
+[2020-04-13T14:20:01.306Z] [INFO] /var/lib/jenkins/workspace/0.Jenkins_FullPipeLine/gameoflife-build/src/test/stories does not exists.  Skipping easyb testing
+[2020-04-13T14:20:01.306Z] [INFO] 
+[2020-04-13T14:20:01.306Z] [INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ gameoflife-build ---
+[2020-04-13T14:20:02.657Z] [INFO] Building jar: /var/lib/jenkins/workspace/0.Jenkins_FullPipeLine/gameoflife-build/target/gameoflife-build-1.0-SNAPSHOT.jar
+[2020-04-13T14:20:02.657Z] [INFO] 
+[2020-04-13T14:20:02.657Z] [INFO] ---------------< com.wakaleo.gameoflife:gameoflife-core >---------------
+[2020-04-13T14:20:02.657Z] [INFO] Building gameoflife-core 1.0-SNAPSHOT                              [3/4]
+[2020-04-13T14:20:02.657Z] [INFO] --------------------------------[ jar ]---------------------------------
+[2020-04-13T14:20:02.657Z] [INFO] 
+[2020-04-13T14:20:02.657Z] [INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-versions) @ gameoflife-core ---
+[2020-04-13T14:20:02.657Z] [INFO] 
+[2020-04-13T14:20:02.657Z] [INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ gameoflife-core ---
+[2020-04-13T14:20:02.657Z] [INFO] Using 'UTF-8' encoding to copy filtered resources.
+[2020-04-13T14:20:02.657Z] [INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/0.Jenkins_FullPipeLine/gameoflife-core/src/main/resources
+[2020-04-13T14:20:02.657Z] [INFO] 
+[2020-04-13T14:20:02.657Z] [INFO] --- jacoco-maven-plugin:0.7.2.201409121644:prepare-agent (jacoco-initialize) @ gameoflife-core ---
+[2020-04-13T14:20:02.657Z] [INFO] argLine set to -javaagent:/var/lib/jenkins/.m2/repository/org/jacoco/org.jacoco.agent/0.7.2.201409121644/org.jacoco.agent-0.7.2.201409121644-runtime.jar=destfile=/var/lib/jenkins/workspace/0.Jenkins_FullPipeLine/gameoflife-core/target/jacoco.exec
+[2020-04-13T14:20:02.657Z] [INFO] 
+[2020-04-13T14:20:02.657Z] [INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ gameoflife-core ---
+[2020-04-13T14:20:02.657Z] [INFO] Changes detected - recompiling the module!
+[2020-04-13T14:20:02.908Z] [INFO] Compiling 5 source files to /var/lib/jenkins/workspace/0.Jenkins_FullPipeLine/gameoflife-core/target/classes
+[2020-04-13T14:20:07.042Z] [INFO] 
+[2020-04-13T14:20:07.042Z] [INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ gameoflife-core ---
+[2020-04-13T14:20:07.043Z] [INFO] Using 'UTF-8' encoding to copy filtered resources.
+[2020-04-13T14:20:07.043Z] [INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/0.Jenkins_FullPipeLine/gameoflife-core/src/test/resources
+[2020-04-13T14:20:07.043Z] [INFO] 
+[2020-04-13T14:20:07.043Z] [INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ gameoflife-core ---
+[2020-04-13T14:20:07.293Z] [INFO] Changes detected - recompiling the module!
+[2020-04-13T14:20:07.293Z] [INFO] Compiling 10 source files to /var/lib/jenkins/workspace/0.Jenkins_FullPipeLine/gameoflife-core/target/test-classes
+[2020-04-13T14:20:08.205Z] [INFO] 
+[2020-04-13T14:20:08.205Z] [INFO] --- maven-surefire-plugin:2.11:test (default-test) @ gameoflife-core ---
+[2020-04-13T14:20:08.205Z] [INFO] Tests are skipped.
+[2020-04-13T14:20:08.205Z] [INFO] 
+[2020-04-13T14:20:08.205Z] [INFO] --- maven-surefire-plugin:2.11:test (unit-tests) @ gameoflife-core ---
+[2020-04-13T14:20:08.205Z] [INFO] Surefire report directory: /var/lib/jenkins/workspace/0.Jenkins_FullPipeLine/gameoflife-core/target/surefire-reports
+[2020-04-13T14:20:08.205Z] 
+[2020-04-13T14:20:08.205Z] -------------------------------------------------------
+[2020-04-13T14:20:08.205Z]  T E S T S
+[2020-04-13T14:20:08.205Z] -------------------------------------------------------
+[2020-04-13T14:20:09.126Z] Picked up JAVA_TOOL_OPTIONS: -Dmaven.ext.class.path="/var/lib/jenkins/workspace/0.Jenkins_FullPipeLine@tmp/withMaven6528b5d1/pipeline-maven-spy.jar" -Dorg.jenkinsci.plugins.pipeline.maven.reportsFolder="/var/lib/jenkins/workspace/0.Jenkins_FullPipeLine@tmp/withMaven6528b5d1" 
+[2020-04-13T14:20:10.471Z] Running com.wakaleo.gameoflife.domain.WhenYouPrintAGrid
+[2020-04-13T14:20:11.389Z] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.906 sec
+[2020-04-13T14:20:11.389Z] Running com.wakaleo.gameoflife.domain.WhenYouCreateACell
+[2020-04-13T14:20:11.389Z] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+[2020-04-13T14:20:11.389Z] Running com.wakaleo.gameoflife.domain.WhenYouCreateANewUniverse
+[2020-04-13T14:20:11.389Z] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 sec
+[2020-04-13T14:20:11.389Z] Running com.wakaleo.gameoflife.domain.WhenYouReadAGridFromAString
+[2020-04-13T14:20:11.390Z] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec
+[2020-04-13T14:20:11.390Z] Running com.wakaleo.gameoflife.domain.WhenYouCreateAGrid
+[2020-04-13T14:20:11.390Z] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 sec
+[2020-04-13T14:20:11.390Z] Running com.wakaleo.gameoflife.domain.WhenYouPlayTheGameOfLife
+[2020-04-13T14:20:11.390Z] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+[2020-04-13T14:20:11.390Z] 
+[2020-04-13T14:20:11.390Z] Results :
+[2020-04-13T14:20:11.390Z] 
+[2020-04-13T14:20:11.390Z] Tests run: 49, Failures: 0, Errors: 0, Skipped: 0
+[2020-04-13T14:20:11.390Z] 
+[2020-04-13T14:20:11.390Z] [INFO] 
+[2020-04-13T14:20:11.390Z] [INFO] --- maven-easyb-plugin:1.4:test (default) @ gameoflife-core ---
+[2020-04-13T14:20:13.891Z] [INFO] Using easyb dependency org.easyb:easyb-core:jar:1.6:compile
+[2020-04-13T14:20:13.891Z] [INFO] Using easyb dependency org.easyb:easyb-composite-groovy:pom:1.2:compile
+[2020-04-13T14:20:13.891Z] [INFO] Using easyb dependency org.codehaus.groovy:groovy-all:jar:2.3.6:compile
+[2020-04-13T14:20:13.891Z] [INFO] Using easyb dependency org.easyb:easyb-ast:jar:1.1:compile
+[2020-04-13T14:20:13.891Z] [INFO] Using easyb dependency commons-cli:commons-cli:jar:1.2:compile
+[2020-04-13T14:20:13.891Z] [INFO] Using easyb dependency commons-lang:commons-lang:jar:2.5:compile
+[2020-04-13T14:20:21.922Z]      [java] Picked up JAVA_TOOL_OPTIONS: -Dmaven.ext.class.path="/var/lib/jenkins/workspace/0.Jenkins_FullPipeLine@tmp/withMaven6528b5d1/pipeline-maven-spy.jar" -Dorg.jenkinsci.plugins.pipeline.maven.reportsFolder="/var/lib/jenkins/workspace/0.Jenkins_FullPipeLine@tmp/withMaven6528b5d1" 
+[2020-04-13T14:20:29.957Z]      [java] Running multiplying things story (/var/lib/jenkins/workspace/0.Jenkins_FullPipeLine/gameoflife-core/src/test/stories/MultiplyingThings.story)
+[2020-04-13T14:20:33.189Z]      [java] Scenarios run: 1, Failures: 0, Pending: 1, Time elapsed: 4.509 sec
+[2020-04-13T14:20:33.189Z]      [java] Running counting things story (/var/lib/jenkins/workspace/0.Jenkins_FullPipeLine/gameoflife-core/src/test/stories/CountingThings.story)
+[2020-04-13T14:20:34.105Z]      [java] Scenarios run: 1, Failures: 0, Pending: 0, Time elapsed: 0.784 sec
+[2020-04-13T14:20:34.657Z]      [java] 2 total behaviors ran with no failures
+[2020-04-13T14:20:37.899Z]      [java] Writing JUnit report to /var/lib/jenkins/workspace/0.Jenkins_FullPipeLine/gameoflife-core/target/surefire-reports/TEST-behavior.MultiplyingThings.xml
+[2020-04-13T14:20:37.899Z]      [java] JUnit report written to /var/lib/jenkins/workspace/0.Jenkins_FullPipeLine/gameoflife-core/target/surefire-reports/TEST-behavior.MultiplyingThings.xml
+[2020-04-13T14:20:37.899Z]      [java] Writing JUnit report to /var/lib/jenkins/workspace/0.Jenkins_FullPipeLine/gameoflife-core/target/surefire-reports/TEST-behavior.CountingThings.xml
+[2020-04-13T14:20:37.899Z]      [java] JUnit report written to /var/lib/jenkins/workspace/0.Jenkins_FullPipeLine/gameoflife-core/target/surefire-reports/TEST-behavior.CountingThings.xml
+[2020-04-13T14:20:38.150Z] [INFO] 
+[2020-04-13T14:20:38.150Z] [INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ gameoflife-core ---
+[2020-04-13T14:20:38.400Z] [INFO] Building jar: /var/lib/jenkins/workspace/0.Jenkins_FullPipeLine/gameoflife-core/target/gameoflife-core-1.0-SNAPSHOT.jar
+[2020-04-13T14:20:38.400Z] [INFO] 
+[2020-04-13T14:20:38.401Z] [INFO] ---------------< com.wakaleo.gameoflife:gameoflife-web >----------------
+[2020-04-13T14:20:38.401Z] [INFO] Building gameoflife-web 1.0-SNAPSHOT                               [4/4]
+[2020-04-13T14:20:38.401Z] [INFO] --------------------------------[ war ]---------------------------------
+[2020-04-13T14:20:38.952Z] [INFO] 
+[2020-04-13T14:20:38.952Z] [INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-versions) @ gameoflife-web ---
+[2020-04-13T14:20:38.952Z] [INFO] 
+[2020-04-13T14:20:38.952Z] [INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ gameoflife-web ---
+[2020-04-13T14:20:38.952Z] [INFO] Using 'UTF-8' encoding to copy filtered resources.
+[2020-04-13T14:20:38.952Z] [INFO] Copying 1 resource
+[2020-04-13T14:20:38.953Z] [INFO] 
+[2020-04-13T14:20:38.953Z] [INFO] --- jacoco-maven-plugin:0.7.2.201409121644:prepare-agent (jacoco-initialize) @ gameoflife-web ---
+[2020-04-13T14:20:38.953Z] [INFO] argLine set to -javaagent:/var/lib/jenkins/.m2/repository/org/jacoco/org.jacoco.agent/0.7.2.201409121644/org.jacoco.agent-0.7.2.201409121644-runtime.jar=destfile=/var/lib/jenkins/workspace/0.Jenkins_FullPipeLine/gameoflife-web/target/jacoco.exec
+[2020-04-13T14:20:38.953Z] [INFO] 
+[2020-04-13T14:20:38.953Z] [INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ gameoflife-web ---
+[2020-04-13T14:20:38.953Z] [INFO] Changes detected - recompiling the module!
+[2020-04-13T14:20:39.205Z] [INFO] Compiling 2 source files to /var/lib/jenkins/workspace/0.Jenkins_FullPipeLine/gameoflife-web/target/classes
+[2020-04-13T14:20:39.757Z] [INFO] 
+[2020-04-13T14:20:39.757Z] [INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ gameoflife-web ---
+[2020-04-13T14:20:39.757Z] [INFO] Using 'UTF-8' encoding to copy filtered resources.
+[2020-04-13T14:20:39.757Z] [INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/0.Jenkins_FullPipeLine/gameoflife-web/src/test/resources
+[2020-04-13T14:20:39.757Z] [INFO] 
+[2020-04-13T14:20:39.757Z] [INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ gameoflife-web ---
+[2020-04-13T14:20:39.757Z] [INFO] Changes detected - recompiling the module!
+[2020-04-13T14:20:39.757Z] [INFO] Compiling 3 source files to /var/lib/jenkins/workspace/0.Jenkins_FullPipeLine/gameoflife-web/target/test-classes
+[2020-04-13T14:20:40.008Z] [INFO] 
+[2020-04-13T14:20:40.008Z] [INFO] --- maven-surefire-plugin:2.11:test (default-test) @ gameoflife-web ---
+[2020-04-13T14:20:40.008Z] [INFO] Tests are skipped.
+[2020-04-13T14:20:40.008Z] [INFO] 
+[2020-04-13T14:20:40.008Z] [INFO] --- maven-surefire-plugin:2.11:test (unit-tests) @ gameoflife-web ---
+[2020-04-13T14:20:40.008Z] [INFO] Surefire report directory: /var/lib/jenkins/workspace/0.Jenkins_FullPipeLine/gameoflife-web/target/surefire-reports
+[2020-04-13T14:20:40.008Z] 
+[2020-04-13T14:20:40.008Z] -------------------------------------------------------
+[2020-04-13T14:20:40.008Z]  T E S T S
+[2020-04-13T14:20:40.008Z] -------------------------------------------------------
+[2020-04-13T14:20:40.941Z] Picked up JAVA_TOOL_OPTIONS: -Dmaven.ext.class.path="/var/lib/jenkins/workspace/0.Jenkins_FullPipeLine@tmp/withMaven6528b5d1/pipeline-maven-spy.jar" -Dorg.jenkinsci.plugins.pipeline.maven.reportsFolder="/var/lib/jenkins/workspace/0.Jenkins_FullPipeLine@tmp/withMaven6528b5d1" 
+[2020-04-13T14:20:42.820Z] Running com.wakaleo.gameoflife.webtests.controllers.WhenSpawningANewGeneration
+[2020-04-13T14:20:44.167Z] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.242 sec
+[2020-04-13T14:20:44.167Z] Running com.wakaleo.gameoflife.webtests.controllers.WhenCreatingANewGame
+[2020-04-13T14:20:44.167Z] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.08 sec
+[2020-04-13T14:20:44.167Z] Running com.wakaleo.gameoflife.webtests.controllers.WhenDisplayingTheHomePage
+[2020-04-13T14:20:44.167Z] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+[2020-04-13T14:20:44.167Z] 
+[2020-04-13T14:20:44.167Z] Results :
+[2020-04-13T14:20:44.167Z] 
+[2020-04-13T14:20:44.167Z] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0
+[2020-04-13T14:20:44.167Z] 
+[2020-04-13T14:20:44.167Z] [INFO] 
+[2020-04-13T14:20:44.167Z] [INFO] --- maven-easyb-plugin:1.4:test (default) @ gameoflife-web ---
+[2020-04-13T14:20:44.167Z] [INFO] /var/lib/jenkins/workspace/0.Jenkins_FullPipeLine/gameoflife-web/src/test/stories does not exists.  Skipping easyb testing
+[2020-04-13T14:20:44.167Z] [INFO] 
+[2020-04-13T14:20:44.167Z] [INFO] --- maven-war-plugin:2.1.1:war (default-war) @ gameoflife-web ---
+[2020-04-13T14:20:45.079Z] [INFO] Packaging webapp
+[2020-04-13T14:20:45.079Z] [INFO] Assembling webapp [gameoflife-web] in [/var/lib/jenkins/workspace/0.Jenkins_FullPipeLine/gameoflife-web/target/gameoflife]
+[2020-04-13T14:20:45.079Z] [INFO] Processing war project
+[2020-04-13T14:20:45.079Z] [INFO] Copying webapp resources [/var/lib/jenkins/workspace/0.Jenkins_FullPipeLine/gameoflife-web/src/main/webapp]
+[2020-04-13T14:20:45.631Z] [INFO] Webapp assembled in [687 msecs]
+[2020-04-13T14:20:46.183Z] [INFO] Building war: /var/lib/jenkins/workspace/0.Jenkins_FullPipeLine/gameoflife-web/target/gameoflife.war
+[2020-04-13T14:20:46.434Z] [INFO] WEB-INF/web.xml already added, skipping
+[2020-04-13T14:20:46.434Z] [INFO] ------------------------------------------------------------------------
+[2020-04-13T14:20:46.434Z] [INFO] Reactor Summary for gameoflife 1.0-SNAPSHOT:
+[2020-04-13T14:20:46.434Z] [INFO] 
+[2020-04-13T14:20:46.434Z] [INFO] gameoflife ......................................... SUCCESS [  9.079 s]
+[2020-04-13T14:20:46.434Z] [INFO] gameoflife-build ................................... SUCCESS [  6.838 s]
+[2020-04-13T14:20:46.434Z] [INFO] gameoflife-core .................................... SUCCESS [ 35.724 s]
+[2020-04-13T14:20:46.434Z] [INFO] gameoflife-web ..................................... SUCCESS [  8.043 s]
+[2020-04-13T14:20:46.434Z] [INFO] ------------------------------------------------------------------------
+[2020-04-13T14:20:46.434Z] [INFO] BUILD SUCCESS
+[2020-04-13T14:20:46.434Z] [INFO] ------------------------------------------------------------------------
+[2020-04-13T14:20:46.434Z] [INFO] Total time:  01:00 min
+[2020-04-13T14:20:46.434Z] [INFO] Finished at: 2020-04-13T19:50:46+05:30
+[2020-04-13T14:20:46.434Z] [INFO] ------------------------------------------------------------------------
+[2020-04-13T14:20:46.434Z] [INFO] [jenkins-event-spy] Generated /var/lib/jenkins/workspace/0.Jenkins_FullPipeLine@tmp/withMaven6528b5d1/maven-spy-20200413-194945-559529336345255296468.log
+[2020-04-13T14:20:46.782Z] [8mha:////4Fg6ITAXgCroINBCxxt6ZryoC3XO9aHy95XXwxgdX5kNAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCkSBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQGOY4V7vgAAAA==[0m[Pipeline] }
+[2020-04-13T14:20:47.414Z] [withMaven] artifactsPublisher - Archive artifact pom.xml under com/wakaleo/gameoflife/gameoflife/1.0-SNAPSHOT/gameoflife-1.0-SNAPSHOT.pom
+[2020-04-13T14:20:47.471Z] [withMaven] artifactsPublisher - Archive artifact gameoflife-build/pom.xml under com/wakaleo/gameoflife/gameoflife-build/1.0-SNAPSHOT/gameoflife-build-1.0-SNAPSHOT.pom
+[2020-04-13T14:20:47.497Z] [withMaven] artifactsPublisher - Archive artifact gameoflife-build/target/gameoflife-build-1.0-SNAPSHOT.jar under com/wakaleo/gameoflife/gameoflife-build/1.0-SNAPSHOT/gameoflife-build-1.0-SNAPSHOT.jar
+[2020-04-13T14:20:47.521Z] [withMaven] artifactsPublisher - Archive artifact gameoflife-core/pom.xml under com/wakaleo/gameoflife/gameoflife-core/1.0-SNAPSHOT/gameoflife-core-1.0-SNAPSHOT.pom
+[2020-04-13T14:20:47.521Z] [withMaven] artifactsPublisher - Archive artifact gameoflife-core/target/gameoflife-core-1.0-SNAPSHOT.jar under com/wakaleo/gameoflife/gameoflife-core/1.0-SNAPSHOT/gameoflife-core-1.0-SNAPSHOT.jar
+[2020-04-13T14:20:47.521Z] [withMaven] artifactsPublisher - Archive artifact gameoflife-web/pom.xml under com/wakaleo/gameoflife/gameoflife-web/1.0-SNAPSHOT/gameoflife-web-1.0-SNAPSHOT.pom
+[2020-04-13T14:20:47.521Z] [withMaven] artifactsPublisher - Archive artifact gameoflife-web/target/gameoflife.war under com/wakaleo/gameoflife/gameoflife-web/1.0-SNAPSHOT/gameoflife-web-1.0-SNAPSHOT.war
+[2020-04-13T14:20:48.638Z] [withMaven] junitPublisher - Archive test results for Maven artifact com.wakaleo.gameoflife:gameoflife:pom:1.0-SNAPSHOT generated by maven-surefire-plugin:test (unit-tests): target/surefire-reports/*.xml
+[2020-04-13T14:20:48.638Z] [withMaven] junitPublisher - Archive test results for Maven artifact com.wakaleo.gameoflife:gameoflife-build:jar:1.0-SNAPSHOT generated by maven-surefire-plugin:test (default-test): gameoflife-build/target/surefire-reports/*.xml
+[2020-04-13T14:20:48.638Z] [withMaven] junitPublisher - Archive test results for Maven artifact com.wakaleo.gameoflife:gameoflife-build:jar:1.0-SNAPSHOT generated by maven-surefire-plugin:test (unit-tests): gameoflife-build/target/surefire-reports/*.xml
+[2020-04-13T14:20:48.638Z] [withMaven] junitPublisher - Archive test results for Maven artifact com.wakaleo.gameoflife:gameoflife-core:jar:1.0-SNAPSHOT generated by maven-surefire-plugin:test (default-test): gameoflife-core/target/surefire-reports/*.xml
+[2020-04-13T14:20:48.638Z] [withMaven] junitPublisher - Archive test results for Maven artifact com.wakaleo.gameoflife:gameoflife-core:jar:1.0-SNAPSHOT generated by maven-surefire-plugin:test (unit-tests): gameoflife-core/target/surefire-reports/*.xml
+[2020-04-13T14:20:48.638Z] [withMaven] junitPublisher - Archive test results for Maven artifact com.wakaleo.gameoflife:gameoflife-web:war:1.0-SNAPSHOT generated by maven-surefire-plugin:test (default-test): gameoflife-web/target/surefire-reports/*.xml
+[2020-04-13T14:20:48.638Z] [withMaven] junitPublisher - Archive test results for Maven artifact com.wakaleo.gameoflife:gameoflife-web:war:1.0-SNAPSHOT generated by maven-surefire-plugin:test (unit-tests): gameoflife-web/target/surefire-reports/*.xml
+[2020-04-13T14:20:48.661Z] Recording test results
+[2020-04-13T14:20:49.384Z] [withMaven] jacocoPublisher - Archive JaCoCo analysis results for Maven artifact MavenArtifact{com.wakaleo.gameoflife:gameoflife:pom:1.0-SNAPSHOT(version: 1.0-SNAPSHOT, snapshot:false) } generated by PluginInvocation{org.jacoco:jacoco-maven-plugin:0.7.2.201409121644@prepare-agent  jacoco-initialize}: execFile: target/jacoco.exec, sources: src/main/java, classes: target/classes
+[2020-04-13T14:20:49.384Z] [withMaven] jacocoPublisher - Archive JaCoCo analysis results for Maven artifact MavenArtifact{com.wakaleo.gameoflife:gameoflife-build:jar:1.0-SNAPSHOT(version: 1.0-SNAPSHOT, snapshot:false) } generated by PluginInvocation{org.jacoco:jacoco-maven-plugin:0.7.2.201409121644@prepare-agent  jacoco-initialize}: execFile: gameoflife-build/target/jacoco.exec, sources: gameoflife-build/src/main/java, classes: gameoflife-build/target/classes
+[2020-04-13T14:20:49.384Z] [withMaven] jacocoPublisher - Archive JaCoCo analysis results for Maven artifact MavenArtifact{com.wakaleo.gameoflife:gameoflife-core:jar:1.0-SNAPSHOT(version: 1.0-SNAPSHOT, snapshot:false) } generated by PluginInvocation{org.jacoco:jacoco-maven-plugin:0.7.2.201409121644@prepare-agent  jacoco-initialize}: execFile: gameoflife-core/target/jacoco.exec, sources: gameoflife-core/src/main/java, classes: gameoflife-core/target/classes
+[2020-04-13T14:20:49.384Z] [withMaven] jacocoPublisher - Archive JaCoCo analysis results for Maven artifact MavenArtifact{com.wakaleo.gameoflife:gameoflife-web:war:1.0-SNAPSHOT(version: 1.0-SNAPSHOT, snapshot:false) } generated by PluginInvocation{org.jacoco:jacoco-maven-plugin:0.7.2.201409121644@prepare-agent  jacoco-initialize}: execFile: gameoflife-web/target/jacoco.exec, sources: gameoflife-web/src/main/java, classes: gameoflife-web/target/classes
+[2020-04-13T14:20:49.385Z] [JaCoCo plugin] Collecting JaCoCo coverage data...
+[2020-04-13T14:20:49.385Z] [JaCoCo plugin] target/jacoco.exec,gameoflife-build/target/jacoco.exec,gameoflife-core/target/jacoco.exec,gameoflife-web/target/jacoco.exec;target/classes,gameoflife-build/target/classes,gameoflife-core/target/classes,gameoflife-web/target/classes;src/main/java,gameoflife-build/src/main/java,gameoflife-core/src/main/java,gameoflife-web/src/main/java; locations are configured
+[2020-04-13T14:20:49.386Z] [JaCoCo plugin] Number of found exec files for pattern target/jacoco.exec,gameoflife-build/target/jacoco.exec,gameoflife-core/target/jacoco.exec,gameoflife-web/target/jacoco.exec: 4
+[2020-04-13T14:20:49.437Z] [JaCoCo plugin] Saving matched execfiles:  /var/lib/jenkins/workspace/0.Jenkins_FullPipeLine/gameoflife-build/target/jacoco.exec /var/lib/jenkins/workspace/0.Jenkins_FullPipeLine/gameoflife-core/target/jacoco.exec /var/lib/jenkins/workspace/0.Jenkins_FullPipeLine/gameoflife-web/target/jacoco.exec /var/lib/jenkins/workspace/0.Jenkins_FullPipeLine/target/jacoco.exec
+[2020-04-13T14:20:49.461Z] [JaCoCo plugin] Saving matched class directories for class-pattern: target/classes,gameoflife-build/target/classes,gameoflife-core/target/classes,gameoflife-web/target/classes: 
+[2020-04-13T14:20:49.462Z] [JaCoCo plugin]  - /var/lib/jenkins/workspace/0.Jenkins_FullPipeLine/gameoflife-build/target/classes 0 files
+[2020-04-13T14:20:49.463Z] [JaCoCo plugin]  - /var/lib/jenkins/workspace/0.Jenkins_FullPipeLine/gameoflife-core/target/classes 5 files
+[2020-04-13T14:20:49.506Z] [JaCoCo plugin]  - /var/lib/jenkins/workspace/0.Jenkins_FullPipeLine/gameoflife-web/target/classes 2 files
+[2020-04-13T14:20:49.506Z] [JaCoCo plugin] Saving matched source directories for source-pattern: src/main/java,gameoflife-build/src/main/java,gameoflife-core/src/main/java,gameoflife-web/src/main/java: 
+[2020-04-13T14:20:49.506Z] [JaCoCo plugin] Source Inclusions: **/*.java,**/*.groovy,**/*.kt,**/*.kts
+[2020-04-13T14:20:50.447Z] [JaCoCo plugin] Source Exclusions: 
+[2020-04-13T14:20:50.449Z] [JaCoCo plugin] - /var/lib/jenkins/workspace/0.Jenkins_FullPipeLine/gameoflife-core/src/main/java 5 files
+[2020-04-13T14:20:50.449Z] [JaCoCo plugin] - /var/lib/jenkins/workspace/0.Jenkins_FullPipeLine/gameoflife-web/src/main/java 2 files
+[2020-04-13T14:20:50.449Z] [JaCoCo plugin] Loading inclusions files..
+[2020-04-13T14:20:50.449Z] [JaCoCo plugin] inclusions: []
+[2020-04-13T14:20:50.449Z] [JaCoCo plugin] exclusions: []
+[2020-04-13T14:20:50.511Z] ERROR: [withMaven] jacocoPublisher - Silently ignore exception archiving JaCoCo results for [JacocoReportDetails{execFile='target/jacoco.exec', sourceDirectory='src/main/java', classesDirectory='target/classes', description='MavenArtifact{com.wakaleo.gameoflife:gameoflife:pom:1.0-SNAPSHOT(version: 1.0-SNAPSHOT, snapshot:false) } PluginInvocation{org.jacoco:jacoco-maven-plugin:0.7.2.201409121644@prepare-agent  jacoco-initialize}'}, JacocoReportDetails{execFile='gameoflife-build/target/jacoco.exec', sourceDirectory='gameoflife-build/src/main/java', classesDirectory='gameoflife-build/target/classes', description='MavenArtifact{com.wakaleo.gameoflife:gameoflife-build:jar:1.0-SNAPSHOT(version: 1.0-SNAPSHOT, snapshot:false) } PluginInvocation{org.jacoco:jacoco-maven-plugin:0.7.2.201409121644@prepare-agent  jacoco-initialize}'}, JacocoReportDetails{execFile='gameoflife-core/target/jacoco.exec', sourceDirectory='gameoflife-core/src/main/java', classesDirectory='gameoflife-core/target/classes', description='MavenArtifact{com.wakaleo.gameoflife:gameoflife-core:jar:1.0-SNAPSHOT(version: 1.0-SNAPSHOT, snapshot:false) } PluginInvocation{org.jacoco:jacoco-maven-plugin:0.7.2.201409121644@prepare-agent  jacoco-initialize}'}, JacocoReportDetails{execFile='gameoflife-web/target/jacoco.exec', sourceDirectory='gameoflife-web/src/main/java', classesDirectory='gameoflife-web/target/classes', description='MavenArtifact{com.wakaleo.gameoflife:gameoflife-web:war:1.0-SNAPSHOT(version: 1.0-SNAPSHOT, snapshot:false) } PluginInvocation{org.jacoco:jacoco-maven-plugin:0.7.2.201409121644@prepare-agent  jacoco-initialize}'}]
+[2020-04-13T14:20:50.511Z] ERROR: [withMaven] jacocoPublisher - Silently ignore exception archiving JaCoCo results: java.io.IOException: While reading execution data-file: /var/lib/jenkins/jobs/0.Jenkins_FullPipeLine/builds/9/jacoco/execFiles/exec0/jacoco.exec
+[2020-04-13T14:20:50.515Z] [withMaven] openTasksPublisher - Scan Tasks for Maven artifact com.wakaleo.gameoflife:gameoflife-core:jar:1.0-SNAPSHOT in source directory gameoflife-core/src/main/java
+[2020-04-13T14:20:50.515Z] [withMaven] openTasksPublisher - Scan Tasks for Maven artifact com.wakaleo.gameoflife:gameoflife-web:war:1.0-SNAPSHOT in source directory gameoflife-web/src/main/java
+[2020-04-13T14:20:50.535Z] [TASKS] Scanning folder '/var/lib/jenkins/workspace/0.Jenkins_FullPipeLine' for files matching the pattern 'gameoflife-core/src/main/java/**/*,gameoflife-web/src/main/java/**/*' - excludes: null
+[2020-04-13T14:20:50.535Z] [TASKS] Found 8 files to scan for tasks
+[2020-04-13T14:20:50.535Z] [TASKS] Found 0 open tasks.
+[2020-04-13T14:20:50.535Z] Skipping warnings blame since pipelines do not have an SCM link.%n
+[2020-04-13T14:20:50.806Z] [TASKS] Computing warning deltas based on reference build #7
+[2020-04-13T14:20:50.807Z] [withMaven] Publishers: Pipeline Graph Publisher: 41 ms, Generated Artifacts Publisher: 1217 ms, Junit Publisher: 728 ms, Dependencies Fingerprint Publisher: 17 ms, JGiven Publisher: 5 ms, Jacoco Publisher: 1127 ms, Open Task Scanner Publisher: 294 ms
+[2020-04-13T14:20:50.845Z] [8mha:////4KjugxSXNe3tq7ryiWnlnDKDR759pkqi4i41anFfLlsDAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJAokRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g3N4dT9vgAAAA==[0m[Pipeline] // withMaven
+[2020-04-13T14:20:50.887Z] [8mha:////4NLE/aVaLpHVxq/qMIoUEHpgBpeXpghQOEkgS+akpKSGAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiRIUQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N8un7Ki+AAAA[0m[Pipeline] }
+[2020-04-13T14:20:50.947Z] [8mha:////4P5nx8JGY+phMH2j0L/k9xQbkjDgAwoDltuty/Jy2TjfAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICaRFVWisNLzCxMU6sO2M7JBUv4mv8AYtIVGyx2tlmXm9YxwAnDgZ7TYOl2Fn0bjR54cRhuDqesOcLdkyRncZWTy0r3SzYctKwpChhJWCjqXMcLZkEW9HLh6ycJFOdU8jfUUBp1R2eUIhsTjKkL8wBdrdRRaaf568AZu8TlPU+16H+AAjcDMm+AAAA[0m[Pipeline] // stage
+[2020-04-13T14:20:51.017Z] [8mha:////4FK0cZFWL0Bl3TwtxZ2CwwxxjBZksyBC32cYEE2e4nUFAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjEB2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INji2eq8EAAAA=[0m[Pipeline] stage
+[2020-04-13T14:20:51.031Z] [8mha:////4KSjDTaFdShqh4sBQODcsucJo3J4mdxb2Ct8SbG7QdkJAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUdEVMrFEXThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbyhjgRMFwp7GzGFvLez+aOfFMobt5ytzRlbeEkbzmjc4NKX1ea0NJw6qCwUbAVmPrKVo0CXbCyYesvERTXVKYt6MAZtUATyjETE4ypG+ZAuzvo4qEP85fAEx9AlYfFquXZ/kBAsTc3cIAAAA=[0m[Pipeline] { (Nexus Push)
+[2020-04-13T14:20:51.210Z] [8mha:////4L3QRCMtAJf2/6Lb7wsLO7bfwPD16nl9PAm4AbsHqncqAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyE0vHypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzD5B3baf2vs3w5BRkb4AAAA=[0m[Pipeline] nexusPublisher
+[2020-04-13T14:20:51.382Z] Uploading Maven asset with groupId: DEV artifactId: 2020-04-13 19:49:18 IST version: 9 packaging: war To repository: Rahul_Nexus
+[2020-04-13T14:20:53.272Z] Successfully Uploaded Maven Assets
+[2020-04-13T14:20:53.349Z] [8mha:////4I5yWTdEzQx+loB20Vk7I7/ufAnSzdXwe0Rw7Jq0QSbvAAAApB+LCAAAAAAAAP9tjbEOwiAURV9rHFwd/QiaNG7GyZWw+AXYIkLJexSodPKL/DX/QbSJk3e4uecu5/mCdQxwpKCZVTgYjJ1h3k26LJYpDFdHmVm6sI4wklNMqCyoV6cFBSUFS6oaVhw2CjtH0aBOsOVW3mXjJOrmnEL5Dhxq04/wgIoXc5IhfWEOsLtNfST8ef4KYPY+Qd3uP9W+Ad3NsHm+AAAA[0m[Pipeline] }
+[2020-04-13T14:20:53.433Z] [8mha:////4N+VJeuWZoDRK7g59fsUOGrUTkOvwGZI0JsXhkTI97AkAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbN8JP5Su+AAAA[0m[Pipeline] // stage
+[2020-04-13T14:20:53.577Z] [8mha:////4J3uiDoaw+CxwTSEc7vqzQN5hzN99eRHqSrCIT8NYSt6AAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKREKJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Nu9INt9AIuskdu9AAAA[0m[Pipeline] }
+[2020-04-13T14:20:53.775Z] [8mha:////4DA0E1YjoUqUonYLi8/oxaanpJ4hCo0VjAIPPKF2AKNUAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRoKBAVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Nu9INt9AJgQlXi9AAAA[0m[Pipeline] // node
+[2020-04-13T14:20:53.884Z] [8mha:////4EvyCwfh/DUPKPp+WHwKMJRgHuscHsuj+e7IDbLs77QuAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IkTCbGybVh8Qsq1Fpo3sP2IUx+kb/mP0gkcfJO95zlvN5Yp4gjR6daS52nVHvVh8HNT40cu2vgUbV8UTVT4mBVZceKG3tasGKxWJblWGlsLNWBkycn2OrWPEwRDLniLHF2B43cN3c8kem5LCbKF6aI3W1oEtOv8zeAqe8FebkXZOUH37fCjb0AAAA=[0m[Pipeline] End of Pipeline
+[2020-04-13T14:20:54.712Z] Finished: SUCCESS
