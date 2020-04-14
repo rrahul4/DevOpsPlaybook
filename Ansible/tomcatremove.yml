@@ -1,0 +1,12 @@
+---
+- hosts: allservers
+  become: true
+  become_user: root
+  tasks:
+  - name: Remove tomcat9
+    apt: name=tomcat9 state=absent
+    when: ansible_distribution=="Ubuntu"
+  - name: Remove tomcat
+    dnf: name=tomcat state=absent
+    when: ansible_distribution=="Fedora"
+ 
